@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    #include("../BootstrapTemplate/Module/_formModule.html")
+    #set($JQ="$.") 
+    <script>
+        var keyValue = ${JQ}request("keyValue");
+        $(function () {
+            initControl();
+            if (!!keyValue) {
+                ${JQ}ajax({
+                    url: "../index.ashx?ctrl=area&action=GetFormJson",
+                    data: { keyValue: keyValue },
+                    dataType: "json",
+                    async: false,
+                    success: function (data) {
+                        $("#form1").formSerialize(data);
+                    }
+                });
+            }
+        });
+        function initControl() {
+            $("#parentId").bindSelect({
+                url: "../index.ashx?ctrl=area&action=GetTreeSelectJson"
+            });
+        }
+        function submitForm() {
+            if (!$('#form1').formValid()) {
+                return false;
+            }
+            ${JQ}submitForm({
+                url: "../index.ashx?ctrl=area&action=SubmitForm&keyValue=" + keyValue,
+                param: $("#form1").formSerialize(),
+                success: function () {
+                    ${JQ}currentWindow().$("#gridList").resetSelection();
+                    ${JQ}currentWindow().$("#gridList").trigger("reloadGrid");
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+    <form id="form1">
+        <div style="padding-top: 20px; margin-right: 20px;">
+            <table class="form">
+                <tr>
+                    <th class="formTitle">上级</th>
+                    <td class="formValue">
+                        <select id="parentId" name="parentId" class="form-control required">
+                            <option value="0">父节点</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">名称</th>
+                    <td class="formValue">
+                        <input id="fullname" name="fullname" type="text" class="form-control required" placeholder="请输入名称" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">级别</th>
+                    <td class="formValue">
+                        <select id="layers" name="layers" class="form-control required">
+                            <option value="">==请选择==</option>
+                            <option value="1" title="1">1</option>
+                            <option value="2" title="2">2</option>
+                            <option value="3" title="3">3</option>
+                            <option value="4" title="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">编号</th>
+                    <td class="formValue">
+                        <input id="encode" name="encode" type="text" class="form-control required">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+D:\SourceCode\DotNet\Diana\basedal\obj\Debug\basedal.csprojResolveAssemblyReference.cache
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\basedal.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\basedal.pdb
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.dal.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.Idal.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.model.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\SqlSugar.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.common.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\TanCertLib.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\TanMiniToolSet.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\ServiceStack.Redis.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\NPOI.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\itextsharp.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Newtonsoft.Json.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\NVelocity.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\ServiceStack.Interfaces.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\ServiceStack.Text.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\TanSM2Crypto.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\ServiceStack.Common.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.dal.pdb
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.Idal.pdb
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.model.pdb
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Diana.common.pdb
+D:\SourceCode\DotNet\Diana\basedal\obj\Debug\basedal.dll
+D:\SourceCode\DotNet\Diana\basedal\obj\Debug\basedal.pdb
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Newtonsoft.Json.xml
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SourceCode\DotNet\Diana\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\basedal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\basedal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.Idal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.mydal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\TanMiniToolSet.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\TanCertLib.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\BouncyCastle.Crypto.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\TanSM2Crypto.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.Idal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.mydal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\obj\Debug\basedal.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\obj\Debug\basedal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\obj\Debug\basedal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.dal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\SqlSugar.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.common.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\ServiceStack.Redis.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\NPOI.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\itextsharp.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.Unity.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Newtonsoft.Json.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\NVelocity.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\ServiceStack.Interfaces.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\ServiceStack.Text.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\ServiceStack.Common.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.dal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Diana.common.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.Unity.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Newtonsoft.Json.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\basedal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\basedal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.dal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.Idal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.mydal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\TanMiniToolSet.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\SqlSugar.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\TanCertLib.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.common.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\BouncyCastle.Crypto.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\TanSM2Crypto.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\ServiceStack.Redis.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\NPOI.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\itextsharp.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.Unity.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Newtonsoft.Json.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\NVelocity.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\ServiceStack.Interfaces.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\ServiceStack.Text.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\ServiceStack.Common.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.Idal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.dal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.mydal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Diana.common.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.Unity.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Newtonsoft.Json.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\obj\Debug\basedal.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\obj\Debug\basedal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\basedal\obj\Debug\basedal.pdb

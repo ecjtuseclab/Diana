@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>文档</title>
+    <link href="Templates/Theme/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="Templates/Theme/css/framework-about.css" rel="stylesheet" />
+    <link href="Templates/Theme/css/framework-font.css" rel="stylesheet" />
+    <!--    <link href="Templates/Theme/css/framework-theme.css" rel="stylesheet" />-->
+    <script src="Templates/Theme/jquery/jquery-2.1.1.min.js"></script>
+    <script src="Templates/Theme/bootstrap/bootstrap.js"></script>
+
+    <script src="Templates/Theme/jqgrid/jqgrid.min.js"></script>
+    <link href="Templates/Theme/jqgrid/jqgrid.css" rel="stylesheet" />
+    <script src="Templates/Theme/jqgrid/grid.locale-cn.js"></script>
+    <link href="Templates/Theme/css/framework-ui.css" rel="stylesheet" />
+    <script src="Templates/Theme/Dianajs/framework-ui.js"></script>
+    <script src="Templates/Theme/Dianajs/indexsearch.js"></script>
+
+    <link href="Templates/Theme/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="Templates/Theme/bootstrap/bootstrap.js"></script>
+    <link href="Templates/Theme/css/help/style.css" rel="stylesheet" />
+    #set($JQ="$.")
+</head>
+<body>
+    <div class="head" >
+        <div class="container" style="font-size: 55px; color: white; line-height: 100px; ">
+            Diana
+            <a href="index.ashx?ctrl=index" style="font-size: 14px; color: white; line-height: 50px; float:right;margin-top:40px;"><span class="glyphicon glyphicon-user"></span>管理登录</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-2" style="padding: 0">
+
+                    <ul id="nav" class="nav nav-left">
+                        <li class="curr_menu">帮助文档</li>
+                        <li>
+                            <a href="index.ashx?ctrl=help&type=1" title="　　平台介绍">平台介绍</a></li>
+                        <li>
+                            <a href="index.ashx?ctrl=help&action=List&type=2" title="　　使用说明">使用说明</a></li>
+                    </ul>
+
+
+
+                </div>
+                <div class="col-sm-10" style="padding: 0">
+                    <div class="intro">
+                        <div class="intro-header">
+                            <span id="pagetitle" class="page-title">$title</span>
+                        </div>
+                        <div class="news_content">
+                            <script>
+                                $(function () {
+                                    var type = GetQueryString("type");
+                                    gridList(type);
+
+                                    $(".ui-jqgrid-hdiv").remove();
+                                });
+                                function gridList(type) {
+                                    $("#gridList").dataGrid({
+                                        url: "../index.ashx?ctrl=help&action=showTypeAll",
+                                        height: 450,
+                                        pager: 'pager',
+                                        rowList: [5, 10, 20, 100], //可调整每页显示的记录数   
+                                        rowNum: 10,
+                                        postData: { type: type },
+                                        pager: "#gridPager",
+                                        sortname: 'edittime asc',
+                                        viewrecords: true,
+                                        colModel: [
+                                            { name: 'title', width: 500, align: 'left', formatter: gethref },
+                                            { name: 'edittime', width: 100, align: 'left', formatter: function (value) { return value.substr(0, 10) } }
+                                        ]
+                                    });
+                                }
+                                //获取链接地址
+                                function gethref(value, options, rowObject) {
+                                    return "<a href='index.ashx?ctrl=help&action=Details&articleid=" + rowObject.id + "'>" + value + "</a>"
+
+                                }
+                                function GetQueryString(name) {
+                                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                                    var r = window.location.search.substr(1).match(reg);
+                                    if (r != null) return unescape(r[2]); return null;
+                                }
+                            </script>
+                            <div class="news_list">
+                                <table id="gridList"></table>
+                                <div id="gridPager" class="scroll"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $(".icon li").each(function () {
+                $(this).find("div:eq(0)").hover(
+                    function () { $(this).next().css('display', 'block') },
+                    function () { $(this).next().css('display', 'none') }
+                );
+            });
+        })
+    </script>
+    <div class="clear"></div>
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" style="padding: 0">
+                    <h4>友情链接</h4>
+                    <ul class="fLinks">
+                        <li><a href="#">帮助</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-sm-offset-2" style="padding: 0">
+                    <h4>关注我们</h4>
+                    <ul class="icon">
+                        <li>
+                            <div class="qq_btn"></div>
+                            <div class="qrcode" style="display: none;">
+                                <img src="Templates/Theme/img/samples/qrcode.png" alt="QQ">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div>
+            <p>系统工程与密码学研究所</p>
+            <p>华视微电子</p>
+        </div>
+    </div>
+</body>
+</html>

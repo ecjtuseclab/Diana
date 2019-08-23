@@ -1,0 +1,2786 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Diana.model.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Diana.model.Fakes.Shimaction">
+            <summary>Diana.model.action 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimaction.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimaction.#ctor(Diana.model.action)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimaction.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimaction.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.Constructor">
+            <summary>设置 action.action() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actioncodeGet">
+            <summary>设置 action.get_actioncode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actioncodeSetInt32">
+            <summary>设置 action.set_actioncode(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actiondescriptionGet">
+            <summary>设置 action.get_actiondescription() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actiondescriptionSetString">
+            <summary>设置 action.set_actiondescription(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionnameGet">
+            <summary>设置 action.get_actionname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionnameSetString">
+            <summary>设置 action.set_actionname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionownerGet">
+            <summary>设置 action.get_actionowner() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionownerSetString">
+            <summary>设置 action.set_actionowner(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionparamGet">
+            <summary>设置 action.get_actionparam() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionparamSetString">
+            <summary>设置 action.set_actionparam(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actiontypeGet">
+            <summary>设置 action.get_actiontype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actiontypeSetNullableOfInt32">
+            <summary>设置 action.set_actiontype(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionurlGet">
+            <summary>设置 action.get_actionurl() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.actionurlSetString">
+            <summary>设置 action.set_actionurl(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.controlernameGet">
+            <summary>设置 action.get_controlername() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.controlernameSetString">
+            <summary>设置 action.set_controlername(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.idGet">
+            <summary>设置 action.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.idSetInt32">
+            <summary>设置 action.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimaction.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actioncodeGet">
+            <summary>设置 action.get_actioncode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actioncodeSetInt32">
+            <summary>设置 action.set_actioncode(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actiondescriptionGet">
+            <summary>设置 action.get_actiondescription() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actiondescriptionSetString">
+            <summary>设置 action.set_actiondescription(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionnameGet">
+            <summary>设置 action.get_actionname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionnameSetString">
+            <summary>设置 action.set_actionname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionownerGet">
+            <summary>设置 action.get_actionowner() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionownerSetString">
+            <summary>设置 action.set_actionowner(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionparamGet">
+            <summary>设置 action.get_actionparam() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionparamSetString">
+            <summary>设置 action.set_actionparam(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actiontypeGet">
+            <summary>设置 action.get_actiontype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actiontypeSetNullableOfInt32">
+            <summary>设置 action.set_actiontype(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionurlGet">
+            <summary>设置 action.get_actionurl() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.actionurlSetString">
+            <summary>设置 action.set_actionurl(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.controlernameGet">
+            <summary>设置 action.get_controlername() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.controlernameSetString">
+            <summary>设置 action.set_controlername(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.idGet">
+            <summary>设置 action.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimaction.AllInstances.idSetInt32">
+            <summary>设置 action.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimarea">
+            <summary>Diana.model.area 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarea.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarea.#ctor(Diana.model.area)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarea.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarea.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.Constructor">
+            <summary>设置 area.area() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.encodeGet">
+            <summary>设置 area.get_encode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.encodeSetString">
+            <summary>设置 area.set_encode(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.fullnameGet">
+            <summary>设置 area.get_fullname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.fullnameSetString">
+            <summary>设置 area.set_fullname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.idGet">
+            <summary>设置 area.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.idSetInt32">
+            <summary>设置 area.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.layersGet">
+            <summary>设置 area.get_layers() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.layersSetNullableOfInt32">
+            <summary>设置 area.set_layers(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.parentidGet">
+            <summary>设置 area.get_parentid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.parentidSetInt32">
+            <summary>设置 area.set_parentid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimarea.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.encodeGet">
+            <summary>设置 area.get_encode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.encodeSetString">
+            <summary>设置 area.set_encode(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.fullnameGet">
+            <summary>设置 area.get_fullname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.fullnameSetString">
+            <summary>设置 area.set_fullname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.idGet">
+            <summary>设置 area.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.idSetInt32">
+            <summary>设置 area.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.layersGet">
+            <summary>设置 area.get_layers() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.layersSetNullableOfInt32">
+            <summary>设置 area.set_layers(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.parentidGet">
+            <summary>设置 area.get_parentid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarea.AllInstances.parentidSetInt32">
+            <summary>设置 area.set_parentid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimarticle">
+            <summary>Diana.model.article 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarticle.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarticle.#ctor(Diana.model.article)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarticle.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimarticle.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.Constructor">
+            <summary>设置 article.article() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.contentGet">
+            <summary>设置 article.get_content() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.contentSetString">
+            <summary>设置 article.set_content(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.edittimeGet">
+            <summary>设置 article.get_edittime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.edittimeSetDateTime">
+            <summary>设置 article.set_edittime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.idGet">
+            <summary>设置 article.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.idSetInt32">
+            <summary>设置 article.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.inserttimeGet">
+            <summary>设置 article.get_inserttime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.inserttimeSetDateTime">
+            <summary>设置 article.set_inserttime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.titleGet">
+            <summary>设置 article.get_title() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.titleSetString">
+            <summary>设置 article.set_title(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.typeGet">
+            <summary>设置 article.get_type() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.typeSetNullableOfInt32">
+            <summary>设置 article.set_type(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimarticle.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.contentGet">
+            <summary>设置 article.get_content() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.contentSetString">
+            <summary>设置 article.set_content(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.edittimeGet">
+            <summary>设置 article.get_edittime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.edittimeSetDateTime">
+            <summary>设置 article.set_edittime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.idGet">
+            <summary>设置 article.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.idSetInt32">
+            <summary>设置 article.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.inserttimeGet">
+            <summary>设置 article.get_inserttime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.inserttimeSetDateTime">
+            <summary>设置 article.set_inserttime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.titleGet">
+            <summary>设置 article.get_title() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.titleSetString">
+            <summary>设置 article.set_title(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.typeGet">
+            <summary>设置 article.get_type() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimarticle.AllInstances.typeSetNullableOfInt32">
+            <summary>设置 article.set_type(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimgroup">
+            <summary>Diana.model.group 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimgroup.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimgroup.#ctor(Diana.model.group)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimgroup.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimgroup.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.Constructor">
+            <summary>设置 group.group() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.groupcodeGet">
+            <summary>设置 group.get_groupcode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.groupcodeSetNullableOfInt32">
+            <summary>设置 group.set_groupcode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.groupnameGet">
+            <summary>设置 group.get_groupname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.groupnameSetString">
+            <summary>设置 group.set_groupname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.idGet">
+            <summary>设置 group.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.idSetInt32">
+            <summary>设置 group.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimgroup.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.AllInstances.groupcodeGet">
+            <summary>设置 group.get_groupcode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.AllInstances.groupcodeSetNullableOfInt32">
+            <summary>设置 group.set_groupcode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.AllInstances.groupnameGet">
+            <summary>设置 group.get_groupname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.AllInstances.groupnameSetString">
+            <summary>设置 group.set_groupname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.AllInstances.idGet">
+            <summary>设置 group.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimgroup.AllInstances.idSetInt32">
+            <summary>设置 group.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimorder">
+            <summary>Diana.model.order 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimorder.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimorder.#ctor(Diana.model.order)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimorder.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimorder.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.Constructor">
+            <summary>设置 order.order() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.CustomNameGet">
+            <summary>设置 order.get_CustomName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.CustomNameSetString">
+            <summary>设置 order.set_CustomName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.OrderNOGet">
+            <summary>设置 order.get_OrderNO() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.OrderNOSetString">
+            <summary>设置 order.set_OrderNO(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.SalesVolumeGet">
+            <summary>设置 order.get_SalesVolume() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.SalesVolumeSetSingle">
+            <summary>设置 order.set_SalesVolume(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.idGet">
+            <summary>设置 order.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.idSetInt32">
+            <summary>设置 order.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimorder.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.CustomNameGet">
+            <summary>设置 order.get_CustomName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.CustomNameSetString">
+            <summary>设置 order.set_CustomName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.OrderNOGet">
+            <summary>设置 order.get_OrderNO() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.OrderNOSetString">
+            <summary>设置 order.set_OrderNO(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.SalesVolumeGet">
+            <summary>设置 order.get_SalesVolume() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.SalesVolumeSetSingle">
+            <summary>设置 order.set_SalesVolume(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.idGet">
+            <summary>设置 order.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimorder.AllInstances.idSetInt32">
+            <summary>设置 order.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimpropertymapping">
+            <summary>Diana.model.propertymapping 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimpropertymapping.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimpropertymapping.#ctor(Diana.model.propertymapping)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimpropertymapping.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimpropertymapping.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.Constructor">
+            <summary>设置 propertymapping.propertymapping() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.idGet">
+            <summary>设置 propertymapping.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.idSetInt32">
+            <summary>设置 propertymapping.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.parentIdGet">
+            <summary>设置 propertymapping.get_parentId() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.parentIdSetNullableOfInt32">
+            <summary>设置 propertymapping.set_parentId(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.propertyMeaningGet">
+            <summary>设置 propertymapping.get_propertyMeaning() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.propertyMeaningSetString">
+            <summary>设置 propertymapping.set_propertyMeaning(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.propertyNameGet">
+            <summary>设置 propertymapping.get_propertyName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.propertyNameSetString">
+            <summary>设置 propertymapping.set_propertyName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.propertyValueGet">
+            <summary>设置 propertymapping.get_propertyValue() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.propertyValueSetString">
+            <summary>设置 propertymapping.set_propertyValue(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.remarkGet">
+            <summary>设置 propertymapping.get_remark() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.remarkSetString">
+            <summary>设置 propertymapping.set_remark(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimpropertymapping.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.idGet">
+            <summary>设置 propertymapping.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.idSetInt32">
+            <summary>设置 propertymapping.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.parentIdGet">
+            <summary>设置 propertymapping.get_parentId() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.parentIdSetNullableOfInt32">
+            <summary>设置 propertymapping.set_parentId(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.propertyMeaningGet">
+            <summary>设置 propertymapping.get_propertyMeaning() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.propertyMeaningSetString">
+            <summary>设置 propertymapping.set_propertyMeaning(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.propertyNameGet">
+            <summary>设置 propertymapping.get_propertyName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.propertyNameSetString">
+            <summary>设置 propertymapping.set_propertyName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.propertyValueGet">
+            <summary>设置 propertymapping.get_propertyValue() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.propertyValueSetString">
+            <summary>设置 propertymapping.set_propertyValue(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.remarkGet">
+            <summary>设置 propertymapping.get_remark() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimpropertymapping.AllInstances.remarkSetString">
+            <summary>设置 propertymapping.set_remark(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimresource">
+            <summary>Diana.model.resource 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimresource.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimresource.#ctor(Diana.model.resource)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimresource.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimresource.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.Constructor">
+            <summary>设置 resource.resource() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.controlernameGet">
+            <summary>设置 resource.get_controlername() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.controlernameSetString">
+            <summary>设置 resource.set_controlername(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.descriptionGet">
+            <summary>设置 resource.get_description() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.descriptionSetString">
+            <summary>设置 resource.set_description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.idGet">
+            <summary>设置 resource.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.idSetInt32">
+            <summary>设置 resource.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.orderGet">
+            <summary>设置 resource.get_order() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.orderSetInt32">
+            <summary>设置 resource.set_order(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceAcescriptGet">
+            <summary>设置 resource.get_resourceAcescript() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceAcescriptSetString">
+            <summary>设置 resource.set_resourceAcescript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceBootstrapscriptGet">
+            <summary>设置 resource.get_resourceBootstrapscript() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceBootstrapscriptSetString">
+            <summary>设置 resource.set_resourceBootstrapscript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceclassGet">
+            <summary>设置 resource.get_resourceclass() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceclassSetString">
+            <summary>设置 resource.set_resourceclass(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcelefticoGet">
+            <summary>设置 resource.get_resourceleftico() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcelefticoSetString">
+            <summary>设置 resource.set_resourceleftico(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcelevalGet">
+            <summary>设置 resource.get_resourceleval() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcelevalSetNullableOfInt32">
+            <summary>设置 resource.set_resourceleval(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcenameGet">
+            <summary>设置 resource.get_resourcename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcenameSetString">
+            <summary>设置 resource.set_resourcename(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcenumberGet">
+            <summary>设置 resource.get_resourcenumber() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcenumberSetNullableOfInt32">
+            <summary>设置 resource.set_resourcenumber(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceownerGet">
+            <summary>设置 resource.get_resourceowner() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceownerSetString">
+            <summary>设置 resource.set_resourceowner(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcerighticoGet">
+            <summary>设置 resource.get_resourcerightico() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcerighticoSetString">
+            <summary>设置 resource.set_resourcerightico(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcetypeGet">
+            <summary>设置 resource.get_resourcetype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourcetypeSetInt32">
+            <summary>设置 resource.set_resourcetype(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceurlGet">
+            <summary>设置 resource.get_resourceurl() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.resourceurlSetString">
+            <summary>设置 resource.set_resourceurl(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimresource.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.controlernameGet">
+            <summary>设置 resource.get_controlername() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.controlernameSetString">
+            <summary>设置 resource.set_controlername(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.descriptionGet">
+            <summary>设置 resource.get_description() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.descriptionSetString">
+            <summary>设置 resource.set_description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.idGet">
+            <summary>设置 resource.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.idSetInt32">
+            <summary>设置 resource.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.orderGet">
+            <summary>设置 resource.get_order() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.orderSetInt32">
+            <summary>设置 resource.set_order(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceAcescriptGet">
+            <summary>设置 resource.get_resourceAcescript() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceAcescriptSetString">
+            <summary>设置 resource.set_resourceAcescript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceBootstrapscriptGet">
+            <summary>设置 resource.get_resourceBootstrapscript() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceBootstrapscriptSetString">
+            <summary>设置 resource.set_resourceBootstrapscript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceclassGet">
+            <summary>设置 resource.get_resourceclass() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceclassSetString">
+            <summary>设置 resource.set_resourceclass(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcelefticoGet">
+            <summary>设置 resource.get_resourceleftico() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcelefticoSetString">
+            <summary>设置 resource.set_resourceleftico(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcelevalGet">
+            <summary>设置 resource.get_resourceleval() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcelevalSetNullableOfInt32">
+            <summary>设置 resource.set_resourceleval(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcenameGet">
+            <summary>设置 resource.get_resourcename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcenameSetString">
+            <summary>设置 resource.set_resourcename(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcenumberGet">
+            <summary>设置 resource.get_resourcenumber() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcenumberSetNullableOfInt32">
+            <summary>设置 resource.set_resourcenumber(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceownerGet">
+            <summary>设置 resource.get_resourceowner() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceownerSetString">
+            <summary>设置 resource.set_resourceowner(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcerighticoGet">
+            <summary>设置 resource.get_resourcerightico() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcerighticoSetString">
+            <summary>设置 resource.set_resourcerightico(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcetypeGet">
+            <summary>设置 resource.get_resourcetype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourcetypeSetInt32">
+            <summary>设置 resource.set_resourcetype(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceurlGet">
+            <summary>设置 resource.get_resourceurl() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimresource.AllInstances.resourceurlSetString">
+            <summary>设置 resource.set_resourceurl(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimrole">
+            <summary>Diana.model.role 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole.#ctor(Diana.model.role)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.Constructor">
+            <summary>设置 role.role() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.idGet">
+            <summary>设置 role.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.idSetInt32">
+            <summary>设置 role.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.rolecodeGet">
+            <summary>设置 role.get_rolecode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.rolecodeSetNullableOfInt32">
+            <summary>设置 role.set_rolecode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.roleexpiretimeGet">
+            <summary>设置 role.get_roleexpiretime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.roleexpiretimeSetNullableOfDateTime">
+            <summary>设置 role.set_roleexpiretime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.rolenameGet">
+            <summary>设置 role.get_rolename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.rolenameSetString">
+            <summary>设置 role.set_rolename(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimrole.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.idGet">
+            <summary>设置 role.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.idSetInt32">
+            <summary>设置 role.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.rolecodeGet">
+            <summary>设置 role.get_rolecode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.rolecodeSetNullableOfInt32">
+            <summary>设置 role.set_rolecode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.roleexpiretimeGet">
+            <summary>设置 role.get_roleexpiretime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.roleexpiretimeSetNullableOfDateTime">
+            <summary>设置 role.set_roleexpiretime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.rolenameGet">
+            <summary>设置 role.get_rolename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole.AllInstances.rolenameSetString">
+            <summary>设置 role.set_rolename(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimrole_action">
+            <summary>Diana.model.role_action 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_action.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_action.#ctor(Diana.model.role_action)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_action.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_action.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.Constructor">
+            <summary>设置 role_action.role_action() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.actionidGet">
+            <summary>设置 role_action.get_actionid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.actionidSetInt32">
+            <summary>设置 role_action.set_actionid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.actionscodeGet">
+            <summary>设置 role_action.get_actionscode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.actionscodeSetInt32">
+            <summary>设置 role_action.set_actionscode(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.controlernameGet">
+            <summary>设置 role_action.get_controlername() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.controlernameSetString">
+            <summary>设置 role_action.set_controlername(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.idGet">
+            <summary>设置 role_action.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.idSetInt32">
+            <summary>设置 role_action.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.roleidGet">
+            <summary>设置 role_action.get_roleid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.roleidSetInt32">
+            <summary>设置 role_action.set_roleid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimrole_action.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.actionidGet">
+            <summary>设置 role_action.get_actionid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.actionidSetInt32">
+            <summary>设置 role_action.set_actionid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.actionscodeGet">
+            <summary>设置 role_action.get_actionscode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.actionscodeSetInt32">
+            <summary>设置 role_action.set_actionscode(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.controlernameGet">
+            <summary>设置 role_action.get_controlername() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.controlernameSetString">
+            <summary>设置 role_action.set_controlername(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.idGet">
+            <summary>设置 role_action.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.idSetInt32">
+            <summary>设置 role_action.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.roleidGet">
+            <summary>设置 role_action.get_roleid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_action.AllInstances.roleidSetInt32">
+            <summary>设置 role_action.set_roleid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimrole_resource">
+            <summary>Diana.model.role_resource 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_resource.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_resource.#ctor(Diana.model.role_resource)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_resource.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimrole_resource.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.Constructor">
+            <summary>设置 role_resource.role_resource() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.idGet">
+            <summary>设置 role_resource.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.idSetInt32">
+            <summary>设置 role_resource.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.resoureceidGet">
+            <summary>设置 role_resource.get_resoureceid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.resoureceidSetInt32">
+            <summary>设置 role_resource.set_resoureceid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.roleidGet">
+            <summary>设置 role_resource.get_roleid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.roleidSetInt32">
+            <summary>设置 role_resource.set_roleid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimrole_resource.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.AllInstances.idGet">
+            <summary>设置 role_resource.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.AllInstances.idSetInt32">
+            <summary>设置 role_resource.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.AllInstances.resoureceidGet">
+            <summary>设置 role_resource.get_resoureceid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.AllInstances.resoureceidSetInt32">
+            <summary>设置 role_resource.set_resoureceid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.AllInstances.roleidGet">
+            <summary>设置 role_resource.get_roleid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimrole_resource.AllInstances.roleidSetInt32">
+            <summary>设置 role_resource.set_roleid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.ShimthreeloginInfo">
+            <summary>Diana.model.threeloginInfo 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.ShimthreeloginInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.ShimthreeloginInfo.#ctor(Diana.model.threeloginInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.ShimthreeloginInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.ShimthreeloginInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.Constructor">
+            <summary>设置 threeloginInfo.threeloginInfo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.accessTokenGet">
+            <summary>设置 threeloginInfo.get_accessToken() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.accessTokenSetString">
+            <summary>设置 threeloginInfo.set_accessToken(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.areaGet">
+            <summary>设置 threeloginInfo.get_area() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.areaSetInt32">
+            <summary>设置 threeloginInfo.set_area(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.codeGet">
+            <summary>设置 threeloginInfo.get_code() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.codeSetString">
+            <summary>设置 threeloginInfo.set_code(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.expiresInGet">
+            <summary>设置 threeloginInfo.get_expiresIn() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.expiresInSetString">
+            <summary>设置 threeloginInfo.set_expiresIn(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.idCodeGet">
+            <summary>设置 threeloginInfo.get_idCode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.idCodeSetString">
+            <summary>设置 threeloginInfo.set_idCode(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.idGet">
+            <summary>设置 threeloginInfo.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.idSetInt32">
+            <summary>设置 threeloginInfo.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.locationGet">
+            <summary>设置 threeloginInfo.get_location() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.locationSetString">
+            <summary>设置 threeloginInfo.set_location(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.refreshTokenGet">
+            <summary>设置 threeloginInfo.get_refreshToken() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.refreshTokenSetString">
+            <summary>设置 threeloginInfo.set_refreshToken(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.sexGet">
+            <summary>设置 threeloginInfo.get_sex() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.sexSetInt32">
+            <summary>设置 threeloginInfo.set_sex(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.typeGet">
+            <summary>设置 threeloginInfo.get_type() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.typeNameGet">
+            <summary>设置 threeloginInfo.get_typeName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.typeNameSetString">
+            <summary>设置 threeloginInfo.set_typeName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.typeSetInt32">
+            <summary>设置 threeloginInfo.set_type(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.uidGet">
+            <summary>设置 threeloginInfo.get_uid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.uidSetString">
+            <summary>设置 threeloginInfo.set_uid(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.useImgGet">
+            <summary>设置 threeloginInfo.get_useImg() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.useImgSetString">
+            <summary>设置 threeloginInfo.set_useImg(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.useNameGet">
+            <summary>设置 threeloginInfo.get_useName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.useNameSetString">
+            <summary>设置 threeloginInfo.set_useName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.userIdGet">
+            <summary>设置 threeloginInfo.get_userId() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.userIdSetInt32">
+            <summary>设置 threeloginInfo.set_userId(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.ShimthreeloginInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.accessTokenGet">
+            <summary>设置 threeloginInfo.get_accessToken() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.accessTokenSetString">
+            <summary>设置 threeloginInfo.set_accessToken(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.areaGet">
+            <summary>设置 threeloginInfo.get_area() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.areaSetInt32">
+            <summary>设置 threeloginInfo.set_area(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.codeGet">
+            <summary>设置 threeloginInfo.get_code() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.codeSetString">
+            <summary>设置 threeloginInfo.set_code(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.expiresInGet">
+            <summary>设置 threeloginInfo.get_expiresIn() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.expiresInSetString">
+            <summary>设置 threeloginInfo.set_expiresIn(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.idCodeGet">
+            <summary>设置 threeloginInfo.get_idCode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.idCodeSetString">
+            <summary>设置 threeloginInfo.set_idCode(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.idGet">
+            <summary>设置 threeloginInfo.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.idSetInt32">
+            <summary>设置 threeloginInfo.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.locationGet">
+            <summary>设置 threeloginInfo.get_location() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.locationSetString">
+            <summary>设置 threeloginInfo.set_location(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.refreshTokenGet">
+            <summary>设置 threeloginInfo.get_refreshToken() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.refreshTokenSetString">
+            <summary>设置 threeloginInfo.set_refreshToken(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.sexGet">
+            <summary>设置 threeloginInfo.get_sex() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.sexSetInt32">
+            <summary>设置 threeloginInfo.set_sex(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.typeGet">
+            <summary>设置 threeloginInfo.get_type() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.typeNameGet">
+            <summary>设置 threeloginInfo.get_typeName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.typeNameSetString">
+            <summary>设置 threeloginInfo.set_typeName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.typeSetInt32">
+            <summary>设置 threeloginInfo.set_type(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.uidGet">
+            <summary>设置 threeloginInfo.get_uid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.uidSetString">
+            <summary>设置 threeloginInfo.set_uid(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.useImgGet">
+            <summary>设置 threeloginInfo.get_useImg() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.useImgSetString">
+            <summary>设置 threeloginInfo.set_useImg(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.useNameGet">
+            <summary>设置 threeloginInfo.get_useName() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.useNameSetString">
+            <summary>设置 threeloginInfo.set_useName(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.userIdGet">
+            <summary>设置 threeloginInfo.get_userId() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.ShimthreeloginInfo.AllInstances.userIdSetInt32">
+            <summary>设置 threeloginInfo.set_userId(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimuser">
+            <summary>Diana.model.user 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser.#ctor(Diana.model.user)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.Constructor">
+            <summary>设置 user.user() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.grouplistGet">
+            <summary>设置 user.get_grouplist() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.grouplistSetString">
+            <summary>设置 user.set_grouplist(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.idGet">
+            <summary>设置 user.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.idSetInt32">
+            <summary>设置 user.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.passwordGet">
+            <summary>设置 user.get_password() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.passwordSetString">
+            <summary>设置 user.set_password(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.photoGet">
+            <summary>设置 user.get_photo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.photoSetString">
+            <summary>设置 user.set_photo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.prikeyGet">
+            <summary>设置 user.get_prikey() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.prikeySetString">
+            <summary>设置 user.set_prikey(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.pubkeyGet">
+            <summary>设置 user.get_pubkey() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.pubkeySetString">
+            <summary>设置 user.set_pubkey(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.rolelistGet">
+            <summary>设置 user.get_rolelist() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.rolelistSetString">
+            <summary>设置 user.set_rolelist(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.usernameGet">
+            <summary>设置 user.get_username() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.usernameSetString">
+            <summary>设置 user.set_username(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimuser.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.grouplistGet">
+            <summary>设置 user.get_grouplist() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.grouplistSetString">
+            <summary>设置 user.set_grouplist(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.idGet">
+            <summary>设置 user.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.idSetInt32">
+            <summary>设置 user.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.passwordGet">
+            <summary>设置 user.get_password() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.passwordSetString">
+            <summary>设置 user.set_password(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.photoGet">
+            <summary>设置 user.get_photo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.photoSetString">
+            <summary>设置 user.set_photo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.prikeyGet">
+            <summary>设置 user.get_prikey() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.prikeySetString">
+            <summary>设置 user.set_prikey(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.pubkeyGet">
+            <summary>设置 user.get_pubkey() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.pubkeySetString">
+            <summary>设置 user.set_pubkey(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.rolelistGet">
+            <summary>设置 user.get_rolelist() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.rolelistSetString">
+            <summary>设置 user.set_rolelist(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.usernameGet">
+            <summary>设置 user.get_username() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser.AllInstances.usernameSetString">
+            <summary>设置 user.set_username(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimuser_group">
+            <summary>Diana.model.user_group 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_group.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_group.#ctor(Diana.model.user_group)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_group.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_group.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.Constructor">
+            <summary>设置 user_group.user_group() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.groupidGet">
+            <summary>设置 user_group.get_groupid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.groupidSetInt32">
+            <summary>设置 user_group.set_groupid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.idGet">
+            <summary>设置 user_group.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.idSetInt32">
+            <summary>设置 user_group.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.useridGet">
+            <summary>设置 user_group.get_userid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.useridSetInt32">
+            <summary>设置 user_group.set_userid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimuser_group.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.AllInstances.groupidGet">
+            <summary>设置 user_group.get_groupid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.AllInstances.groupidSetInt32">
+            <summary>设置 user_group.set_groupid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.AllInstances.idGet">
+            <summary>设置 user_group.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.AllInstances.idSetInt32">
+            <summary>设置 user_group.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.AllInstances.useridGet">
+            <summary>设置 user_group.get_userid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_group.AllInstances.useridSetInt32">
+            <summary>设置 user_group.set_userid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimuser_role">
+            <summary>Diana.model.user_role 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_role.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_role.#ctor(Diana.model.user_role)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_role.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimuser_role.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.Constructor">
+            <summary>设置 user_role.user_role() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.idGet">
+            <summary>设置 user_role.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.idSetInt32">
+            <summary>设置 user_role.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.roleidGet">
+            <summary>设置 user_role.get_roleid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.roleidSetInt32">
+            <summary>设置 user_role.set_roleid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.rolescodeGet">
+            <summary>设置 user_role.get_rolescode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.rolescodeSetInt32">
+            <summary>设置 user_role.set_rolescode(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.useridGet">
+            <summary>设置 user_role.get_userid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.useridSetInt32">
+            <summary>设置 user_role.set_userid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimuser_role.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.idGet">
+            <summary>设置 user_role.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.idSetInt32">
+            <summary>设置 user_role.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.roleidGet">
+            <summary>设置 user_role.get_roleid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.roleidSetInt32">
+            <summary>设置 user_role.set_roleid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.rolescodeGet">
+            <summary>设置 user_role.get_rolescode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.rolescodeSetInt32">
+            <summary>设置 user_role.set_rolescode(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.useridGet">
+            <summary>设置 user_role.get_userid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimuser_role.AllInstances.useridSetInt32">
+            <summary>设置 user_role.set_userid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflow">
+            <summary>Diana.model.workflow 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflow.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflow.#ctor(Diana.model.workflow)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflow.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflow.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.Constructor">
+            <summary>设置 workflow.workflow() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.idGet">
+            <summary>设置 workflow.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.idSetInt32">
+            <summary>设置 workflow.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfbegintimeGet">
+            <summary>设置 workflow.get_wfbegintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfbegintimeSetDateTime">
+            <summary>设置 workflow.set_wfbegintime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wffieldnameGet">
+            <summary>设置 workflow.get_wffieldname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wffieldnameSetString">
+            <summary>设置 workflow.set_wffieldname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfflagGet">
+            <summary>设置 workflow.get_wfflag() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfflagSetInt32">
+            <summary>设置 workflow.set_wfflag(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfinstancestableGet">
+            <summary>设置 workflow.get_wfinstancestable() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfinstancestableSetString">
+            <summary>设置 workflow.set_wfinstancestable(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfjsonstrGet">
+            <summary>设置 workflow.get_wfjsonstr() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfjsonstrSetString">
+            <summary>设置 workflow.set_wfjsonstr(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wflockGet">
+            <summary>设置 workflow.get_wflock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wflockSetNullableOfInt32">
+            <summary>设置 workflow.set_wflock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfmemoGet">
+            <summary>设置 workflow.get_wfmemo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfmemoSetString">
+            <summary>设置 workflow.set_wfmemo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfnameGet">
+            <summary>设置 workflow.get_wfname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfnameSetString">
+            <summary>设置 workflow.set_wfname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfownertableGet">
+            <summary>设置 workflow.get_wfownertable() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfownertableSetString">
+            <summary>设置 workflow.set_wfownertable(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfstatusGet">
+            <summary>设置 workflow.get_wfstatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfstatusSetNullableOfInt32">
+            <summary>设置 workflow.set_wfstatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfstoptimeGet">
+            <summary>设置 workflow.get_wfstoptime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.wfstoptimeSetDateTime">
+            <summary>设置 workflow.set_wfstoptime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflow.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.idGet">
+            <summary>设置 workflow.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.idSetInt32">
+            <summary>设置 workflow.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfbegintimeGet">
+            <summary>设置 workflow.get_wfbegintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfbegintimeSetDateTime">
+            <summary>设置 workflow.set_wfbegintime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wffieldnameGet">
+            <summary>设置 workflow.get_wffieldname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wffieldnameSetString">
+            <summary>设置 workflow.set_wffieldname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfflagGet">
+            <summary>设置 workflow.get_wfflag() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfflagSetInt32">
+            <summary>设置 workflow.set_wfflag(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfinstancestableGet">
+            <summary>设置 workflow.get_wfinstancestable() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfinstancestableSetString">
+            <summary>设置 workflow.set_wfinstancestable(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfjsonstrGet">
+            <summary>设置 workflow.get_wfjsonstr() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfjsonstrSetString">
+            <summary>设置 workflow.set_wfjsonstr(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wflockGet">
+            <summary>设置 workflow.get_wflock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wflockSetNullableOfInt32">
+            <summary>设置 workflow.set_wflock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfmemoGet">
+            <summary>设置 workflow.get_wfmemo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfmemoSetString">
+            <summary>设置 workflow.set_wfmemo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfnameGet">
+            <summary>设置 workflow.get_wfname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfnameSetString">
+            <summary>设置 workflow.set_wfname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfownertableGet">
+            <summary>设置 workflow.get_wfownertable() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfownertableSetString">
+            <summary>设置 workflow.set_wfownertable(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfstatusGet">
+            <summary>设置 workflow.get_wfstatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfstatusSetNullableOfInt32">
+            <summary>设置 workflow.set_wfstatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfstoptimeGet">
+            <summary>设置 workflow.get_wfstoptime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflow.AllInstances.wfstoptimeSetDateTime">
+            <summary>设置 workflow.set_wfstoptime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflowinstances">
+            <summary>Diana.model.workflowinstances 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstances.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstances.#ctor(Diana.model.workflowinstances)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstances.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstances.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.Constructor">
+            <summary>设置 workflowinstances.workflowinstances() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.currentnodeidGet">
+            <summary>设置 workflowinstances.get_currentnodeid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.currentnodeidSetInt32">
+            <summary>设置 workflowinstances.set_currentnodeid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.datalockGet">
+            <summary>设置 workflowinstances.get_datalock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.datalockSetNullableOfInt32">
+            <summary>设置 workflowinstances.set_datalock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.idGet">
+            <summary>设置 workflowinstances.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.idSetInt32">
+            <summary>设置 workflowinstances.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.nodcodeGet">
+            <summary>设置 workflowinstances.get_nodcode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.nodcodeSetNullableOfInt32">
+            <summary>设置 workflowinstances.set_nodcode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.ownertabledataidGet">
+            <summary>设置 workflowinstances.get_ownertabledataid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.ownertabledataidSetInt32">
+            <summary>设置 workflowinstances.set_ownertabledataid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.statusGet">
+            <summary>设置 workflowinstances.get_status() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.statusSetNullableOfInt32">
+            <summary>设置 workflowinstances.set_status(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.wfidGet">
+            <summary>设置 workflowinstances.get_wfid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.wfidSetInt32">
+            <summary>设置 workflowinstances.set_wfid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflowinstances.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.currentnodeidGet">
+            <summary>设置 workflowinstances.get_currentnodeid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.currentnodeidSetInt32">
+            <summary>设置 workflowinstances.set_currentnodeid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.datalockGet">
+            <summary>设置 workflowinstances.get_datalock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.datalockSetNullableOfInt32">
+            <summary>设置 workflowinstances.set_datalock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.idGet">
+            <summary>设置 workflowinstances.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.idSetInt32">
+            <summary>设置 workflowinstances.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.nodcodeGet">
+            <summary>设置 workflowinstances.get_nodcode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.nodcodeSetNullableOfInt32">
+            <summary>设置 workflowinstances.set_nodcode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.ownertabledataidGet">
+            <summary>设置 workflowinstances.get_ownertabledataid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.ownertabledataidSetInt32">
+            <summary>设置 workflowinstances.set_ownertabledataid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.statusGet">
+            <summary>设置 workflowinstances.get_status() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.statusSetNullableOfInt32">
+            <summary>设置 workflowinstances.set_status(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.wfidGet">
+            <summary>设置 workflowinstances.get_wfid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstances.AllInstances.wfidSetInt32">
+            <summary>设置 workflowinstances.set_wfid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflowinstancetracings">
+            <summary>Diana.model.workflowinstancetracings 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstancetracings.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstancetracings.#ctor(Diana.model.workflowinstancetracings)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstancetracings.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflowinstancetracings.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.Constructor">
+            <summary>设置 workflowinstancetracings.workflowinstancetracings() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.endnodeGet">
+            <summary>设置 workflowinstancetracings.get_endnode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.endnodeSetString">
+            <summary>设置 workflowinstancetracings.set_endnode(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.executeactionGet">
+            <summary>设置 workflowinstancetracings.get_executeaction() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.executeactionSetString">
+            <summary>设置 workflowinstancetracings.set_executeaction(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.executerGet">
+            <summary>设置 workflowinstancetracings.get_executer() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.executerSetString">
+            <summary>设置 workflowinstancetracings.set_executer(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.executetimeGet">
+            <summary>设置 workflowinstancetracings.get_executetime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.executetimeSetDateTime">
+            <summary>设置 workflowinstancetracings.set_executetime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.idGet">
+            <summary>设置 workflowinstancetracings.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.idSetInt32">
+            <summary>设置 workflowinstancetracings.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.instanceidGet">
+            <summary>设置 workflowinstancetracings.get_instanceid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.instanceidSetInt32">
+            <summary>设置 workflowinstancetracings.set_instanceid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.remarkGet">
+            <summary>设置 workflowinstancetracings.get_remark() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.remarkSetString">
+            <summary>设置 workflowinstancetracings.set_remark(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.startnodeGet">
+            <summary>设置 workflowinstancetracings.get_startnode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.startnodeSetString">
+            <summary>设置 workflowinstancetracings.set_startnode(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.endnodeGet">
+            <summary>设置 workflowinstancetracings.get_endnode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.endnodeSetString">
+            <summary>设置 workflowinstancetracings.set_endnode(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.executeactionGet">
+            <summary>设置 workflowinstancetracings.get_executeaction() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.executeactionSetString">
+            <summary>设置 workflowinstancetracings.set_executeaction(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.executerGet">
+            <summary>设置 workflowinstancetracings.get_executer() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.executerSetString">
+            <summary>设置 workflowinstancetracings.set_executer(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.executetimeGet">
+            <summary>设置 workflowinstancetracings.get_executetime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.executetimeSetDateTime">
+            <summary>设置 workflowinstancetracings.set_executetime(DateTime value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.idGet">
+            <summary>设置 workflowinstancetracings.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.idSetInt32">
+            <summary>设置 workflowinstancetracings.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.instanceidGet">
+            <summary>设置 workflowinstancetracings.get_instanceid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.instanceidSetInt32">
+            <summary>设置 workflowinstancetracings.set_instanceid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.remarkGet">
+            <summary>设置 workflowinstancetracings.get_remark() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.remarkSetString">
+            <summary>设置 workflowinstancetracings.set_remark(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.startnodeGet">
+            <summary>设置 workflowinstancetracings.get_startnode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflowinstancetracings.AllInstances.startnodeSetString">
+            <summary>设置 workflowinstancetracings.set_startnode(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflownode">
+            <summary>Diana.model.workflownode 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownode.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownode.#ctor(Diana.model.workflownode)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownode.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownode.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.Constructor">
+            <summary>设置 workflownode.workflownode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.idGet">
+            <summary>设置 workflownode.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.idSetInt32">
+            <summary>设置 workflownode.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfidGet">
+            <summary>设置 workflownode.get_wfid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfidSetInt32">
+            <summary>设置 workflownode.set_wfid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodebegintimeGet">
+            <summary>设置 workflownode.get_wfnodebegintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodebegintimeSetNullableOfDateTime">
+            <summary>设置 workflownode.set_wfnodebegintime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodeendtimeGet">
+            <summary>设置 workflownode.get_wfnodeendtime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodeendtimeSetNullableOfDateTime">
+            <summary>设置 workflownode.set_wfnodeendtime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodeflagGet">
+            <summary>设置 workflownode.get_wfnodeflag() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodeflagSetNullableOfInt32">
+            <summary>设置 workflownode.set_wfnodeflag(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodelockGet">
+            <summary>设置 workflownode.get_wfnodelock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodelockSetNullableOfInt32">
+            <summary>设置 workflownode.set_wfnodelock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodememoGet">
+            <summary>设置 workflownode.get_wfnodememo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodememoSetString">
+            <summary>设置 workflownode.set_wfnodememo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodenameGet">
+            <summary>设置 workflownode.get_wfnodename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodenameSetString">
+            <summary>设置 workflownode.set_wfnodename(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodestatusGet">
+            <summary>设置 workflownode.get_wfnodestatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.wfnodestatusSetNullableOfInt32">
+            <summary>设置 workflownode.set_wfnodestatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflownode.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.idGet">
+            <summary>设置 workflownode.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.idSetInt32">
+            <summary>设置 workflownode.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfidGet">
+            <summary>设置 workflownode.get_wfid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfidSetInt32">
+            <summary>设置 workflownode.set_wfid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodebegintimeGet">
+            <summary>设置 workflownode.get_wfnodebegintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodebegintimeSetNullableOfDateTime">
+            <summary>设置 workflownode.set_wfnodebegintime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodeendtimeGet">
+            <summary>设置 workflownode.get_wfnodeendtime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodeendtimeSetNullableOfDateTime">
+            <summary>设置 workflownode.set_wfnodeendtime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodeflagGet">
+            <summary>设置 workflownode.get_wfnodeflag() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodeflagSetNullableOfInt32">
+            <summary>设置 workflownode.set_wfnodeflag(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodelockGet">
+            <summary>设置 workflownode.get_wfnodelock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodelockSetNullableOfInt32">
+            <summary>设置 workflownode.set_wfnodelock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodememoGet">
+            <summary>设置 workflownode.get_wfnodememo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodememoSetString">
+            <summary>设置 workflownode.set_wfnodememo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodenameGet">
+            <summary>设置 workflownode.get_wfnodename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodenameSetString">
+            <summary>设置 workflownode.set_wfnodename(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodestatusGet">
+            <summary>设置 workflownode.get_wfnodestatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownode.AllInstances.wfnodestatusSetNullableOfInt32">
+            <summary>设置 workflownode.set_wfnodestatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflownodeaction">
+            <summary>Diana.model.workflownodeaction 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeaction.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeaction.#ctor(Diana.model.workflownodeaction)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeaction.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeaction.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.Constructor">
+            <summary>设置 workflownodeaction.workflownodeaction() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.actionidGet">
+            <summary>设置 workflownodeaction.get_actionid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.actionidSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_actionid(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.begintimeGet">
+            <summary>设置 workflownodeaction.get_begintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.begintimeSetNullableOfDateTime">
+            <summary>设置 workflownodeaction.set_begintime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.currentnodeidGet">
+            <summary>设置 workflownodeaction.get_currentnodeid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.currentnodeidSetInt32">
+            <summary>设置 workflownodeaction.set_currentnodeid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.endtimeGet">
+            <summary>设置 workflownodeaction.get_endtime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.endtimeSetNullableOfDateTime">
+            <summary>设置 workflownodeaction.set_endtime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.idGet">
+            <summary>设置 workflownodeaction.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.idSetInt32">
+            <summary>设置 workflownodeaction.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.naconditionGet">
+            <summary>设置 workflownodeaction.get_nacondition() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.naconditionSetString">
+            <summary>设置 workflownodeaction.set_nacondition(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nalockGet">
+            <summary>设置 workflownodeaction.get_nalock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nalockSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nalock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nastatusGet">
+            <summary>设置 workflownodeaction.get_nastatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nastatusSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nastatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nextnodeidGet">
+            <summary>设置 workflownodeaction.get_nextnodeid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nextnodeidSetInt32">
+            <summary>设置 workflownodeaction.set_nextnodeid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodeactioncodeGet">
+            <summary>设置 workflownodeaction.get_nodeactioncode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodeactioncodeSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nodeactioncode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodeactionmemoGet">
+            <summary>设置 workflownodeaction.get_nodeactionmemo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodeactionmemoSetString">
+            <summary>设置 workflownodeaction.set_nodeactionmemo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodeactionnameGet">
+            <summary>设置 workflownodeaction.get_nodeactionname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodeactionnameSetString">
+            <summary>设置 workflownodeaction.set_nodeactionname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodetypeGet">
+            <summary>设置 workflownodeaction.get_nodetype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.nodetypeSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nodetype(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.wfidGet">
+            <summary>设置 workflownodeaction.get_wfid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.wfidSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_wfid(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflownodeaction.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.actionidGet">
+            <summary>设置 workflownodeaction.get_actionid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.actionidSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_actionid(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.begintimeGet">
+            <summary>设置 workflownodeaction.get_begintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.begintimeSetNullableOfDateTime">
+            <summary>设置 workflownodeaction.set_begintime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.currentnodeidGet">
+            <summary>设置 workflownodeaction.get_currentnodeid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.currentnodeidSetInt32">
+            <summary>设置 workflownodeaction.set_currentnodeid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.endtimeGet">
+            <summary>设置 workflownodeaction.get_endtime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.endtimeSetNullableOfDateTime">
+            <summary>设置 workflownodeaction.set_endtime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.idGet">
+            <summary>设置 workflownodeaction.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.idSetInt32">
+            <summary>设置 workflownodeaction.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.naconditionGet">
+            <summary>设置 workflownodeaction.get_nacondition() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.naconditionSetString">
+            <summary>设置 workflownodeaction.set_nacondition(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nalockGet">
+            <summary>设置 workflownodeaction.get_nalock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nalockSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nalock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nastatusGet">
+            <summary>设置 workflownodeaction.get_nastatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nastatusSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nastatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nextnodeidGet">
+            <summary>设置 workflownodeaction.get_nextnodeid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nextnodeidSetInt32">
+            <summary>设置 workflownodeaction.set_nextnodeid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodeactioncodeGet">
+            <summary>设置 workflownodeaction.get_nodeactioncode() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodeactioncodeSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nodeactioncode(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodeactionmemoGet">
+            <summary>设置 workflownodeaction.get_nodeactionmemo() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodeactionmemoSetString">
+            <summary>设置 workflownodeaction.set_nodeactionmemo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodeactionnameGet">
+            <summary>设置 workflownodeaction.get_nodeactionname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodeactionnameSetString">
+            <summary>设置 workflownodeaction.set_nodeactionname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodetypeGet">
+            <summary>设置 workflownodeaction.get_nodetype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.nodetypeSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_nodetype(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.wfidGet">
+            <summary>设置 workflownodeaction.get_wfid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeaction.AllInstances.wfidSetNullableOfInt32">
+            <summary>设置 workflownodeaction.set_wfid(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflownodeoperator">
+            <summary>Diana.model.workflownodeoperator 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeoperator.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeoperator.#ctor(Diana.model.workflownodeoperator)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeoperator.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Shimworkflownodeoperator.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.Constructor">
+            <summary>设置 workflownodeoperator.workflownodeoperator() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.begintimeGet">
+            <summary>设置 workflownodeoperator.get_begintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.begintimeSetNullableOfDateTime">
+            <summary>设置 workflownodeoperator.set_begintime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.endtimeGet">
+            <summary>设置 workflownodeoperator.get_endtime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.endtimeSetNullableOfDateTime">
+            <summary>设置 workflownodeoperator.set_endtime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.idGet">
+            <summary>设置 workflownodeoperator.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.idSetInt32">
+            <summary>设置 workflownodeoperator.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.nodeactionidGet">
+            <summary>设置 workflownodeoperator.get_nodeactionid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.nodeactionidSetInt32">
+            <summary>设置 workflownodeoperator.set_nodeactionid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.nodeoperatorGet">
+            <summary>设置 workflownodeoperator.get_nodeoperator() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.nodeoperatorSetString">
+            <summary>设置 workflownodeoperator.set_nodeoperator(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatoridGet">
+            <summary>设置 workflownodeoperator.get_operatorid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatoridSetInt32">
+            <summary>设置 workflownodeoperator.set_operatorid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatorlockGet">
+            <summary>设置 workflownodeoperator.get_operatorlock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatorlockSetNullableOfInt32">
+            <summary>设置 workflownodeoperator.set_operatorlock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatorstatusGet">
+            <summary>设置 workflownodeoperator.get_operatorstatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatorstatusSetNullableOfInt32">
+            <summary>设置 workflownodeoperator.set_operatorstatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatortypeGet">
+            <summary>设置 workflownodeoperator.get_operatortype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.operatortypeSetInt32">
+            <summary>设置 workflownodeoperator.set_operatortype(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.begintimeGet">
+            <summary>设置 workflownodeoperator.get_begintime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.begintimeSetNullableOfDateTime">
+            <summary>设置 workflownodeoperator.set_begintime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.endtimeGet">
+            <summary>设置 workflownodeoperator.get_endtime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.endtimeSetNullableOfDateTime">
+            <summary>设置 workflownodeoperator.set_endtime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.idGet">
+            <summary>设置 workflownodeoperator.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.idSetInt32">
+            <summary>设置 workflownodeoperator.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.nodeactionidGet">
+            <summary>设置 workflownodeoperator.get_nodeactionid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.nodeactionidSetInt32">
+            <summary>设置 workflownodeoperator.set_nodeactionid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.nodeoperatorGet">
+            <summary>设置 workflownodeoperator.get_nodeoperator() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.nodeoperatorSetString">
+            <summary>设置 workflownodeoperator.set_nodeoperator(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatoridGet">
+            <summary>设置 workflownodeoperator.get_operatorid() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatoridSetInt32">
+            <summary>设置 workflownodeoperator.set_operatorid(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatorlockGet">
+            <summary>设置 workflownodeoperator.get_operatorlock() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatorlockSetNullableOfInt32">
+            <summary>设置 workflownodeoperator.set_operatorlock(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatorstatusGet">
+            <summary>设置 workflownodeoperator.get_operatorstatus() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatorstatusSetNullableOfInt32">
+            <summary>设置 workflownodeoperator.set_operatorstatus(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatortypeGet">
+            <summary>设置 workflownodeoperator.get_operatortype() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Shimworkflownodeoperator.AllInstances.operatortypeSetInt32">
+            <summary>设置 workflownodeoperator.set_operatortype(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubaction">
+            <summary>Diana.model.action 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubaction.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubaction.InitializeStub">
+            <summary>初始化 type Stubaction 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubaction.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubaction.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubaction.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubarea">
+            <summary>Diana.model.area 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubarea.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubarea.InitializeStub">
+            <summary>初始化 type Stubarea 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubarea.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubarea.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubarea.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubarticle">
+            <summary>Diana.model.article 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubarticle.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubarticle.InitializeStub">
+            <summary>初始化 type Stubarticle 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubarticle.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubarticle.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubarticle.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubgroup">
+            <summary>Diana.model.group 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubgroup.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubgroup.InitializeStub">
+            <summary>初始化 type Stubgroup 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubgroup.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubgroup.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubgroup.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stuborder">
+            <summary>Diana.model.order 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stuborder.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stuborder.InitializeStub">
+            <summary>初始化 type Stuborder 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stuborder.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stuborder.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stuborder.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubpropertymapping">
+            <summary>Diana.model.propertymapping 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubpropertymapping.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubpropertymapping.InitializeStub">
+            <summary>初始化 type Stubpropertymapping 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubpropertymapping.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubpropertymapping.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubpropertymapping.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubresource">
+            <summary>Diana.model.resource 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubresource.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubresource.InitializeStub">
+            <summary>初始化 type Stubresource 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubresource.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubresource.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubresource.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubrole">
+            <summary>Diana.model.role 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubrole.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubrole.InitializeStub">
+            <summary>初始化 type Stubrole 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubrole_action">
+            <summary>Diana.model.role_action 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubrole_action.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubrole_action.InitializeStub">
+            <summary>初始化 type Stubrole_action 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole_action.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole_action.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole_action.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubrole_resource">
+            <summary>Diana.model.role_resource 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubrole_resource.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubrole_resource.InitializeStub">
+            <summary>初始化 type Stubrole_resource 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole_resource.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole_resource.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubrole_resource.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.StubthreeloginInfo">
+            <summary>Diana.model.threeloginInfo 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.StubthreeloginInfo.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.StubthreeloginInfo.InitializeStub">
+            <summary>初始化 type StubthreeloginInfo 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.StubthreeloginInfo.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.StubthreeloginInfo.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.StubthreeloginInfo.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubuser">
+            <summary>Diana.model.user 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubuser.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubuser.InitializeStub">
+            <summary>初始化 type Stubuser 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubuser_group">
+            <summary>Diana.model.user_group 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubuser_group.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubuser_group.InitializeStub">
+            <summary>初始化 type Stubuser_group 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser_group.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser_group.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser_group.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubuser_role">
+            <summary>Diana.model.user_role 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubuser_role.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubuser_role.InitializeStub">
+            <summary>初始化 type Stubuser_role 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser_role.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser_role.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubuser_role.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubworkflow">
+            <summary>Diana.model.workflow 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflow.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflow.InitializeStub">
+            <summary>初始化 type Stubworkflow 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflow.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflow.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflow.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubworkflowinstances">
+            <summary>Diana.model.workflowinstances 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflowinstances.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflowinstances.InitializeStub">
+            <summary>初始化 type Stubworkflowinstances 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflowinstances.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflowinstances.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflowinstances.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubworkflowinstancetracings">
+            <summary>Diana.model.workflowinstancetracings 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflowinstancetracings.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflowinstancetracings.InitializeStub">
+            <summary>初始化 type Stubworkflowinstancetracings 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflowinstancetracings.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflowinstancetracings.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflowinstancetracings.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubworkflownode">
+            <summary>Diana.model.workflownode 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflownode.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflownode.InitializeStub">
+            <summary>初始化 type Stubworkflownode 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownode.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownode.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownode.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubworkflownodeaction">
+            <summary>Diana.model.workflownodeaction 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflownodeaction.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflownodeaction.InitializeStub">
+            <summary>初始化 type Stubworkflownodeaction 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownodeaction.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownodeaction.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownodeaction.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Fakes.Stubworkflownodeoperator">
+            <summary>Diana.model.workflownodeoperator 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflownodeoperator.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Fakes.Stubworkflownodeoperator.InitializeStub">
+            <summary>初始化 type Stubworkflownodeoperator 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownodeoperator.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownodeoperator.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Fakes.Stubworkflownodeoperator.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Diana.model.Model.Fakes.Shimbackup">
+            <summary>Diana.model.Model.backup 的填充码类型</summary>
+        </member>
+        <member name="M:Diana.model.Model.Fakes.Shimbackup.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Diana.model.Model.Fakes.Shimbackup.#ctor(Diana.model.Model.backup)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Diana.model.Model.Fakes.Shimbackup.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Diana.model.Model.Fakes.Shimbackup.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.Constructor">
+            <summary>设置 backup.backup() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.absolutepathGet">
+            <summary>设置 backup.get_absolutepath() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.absolutepathSetString">
+            <summary>设置 backup.set_absolutepath(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backupnameGet">
+            <summary>设置 backup.get_backupname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backupnameSetString">
+            <summary>设置 backup.set_backupname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backuppersonnelGet">
+            <summary>设置 backup.get_backuppersonnel() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backuppersonnelSetString">
+            <summary>设置 backup.set_backuppersonnel(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backupsizeGet">
+            <summary>设置 backup.get_backupsize() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backupsizeSetString">
+            <summary>设置 backup.set_backupsize(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backuptimeGet">
+            <summary>设置 backup.get_backuptime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.backuptimeSetNullableOfDateTime">
+            <summary>设置 backup.set_backuptime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.databasenameGet">
+            <summary>设置 backup.get_databasename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.databasenameSetString">
+            <summary>设置 backup.set_databasename(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.idGet">
+            <summary>设置 backup.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.idSetInt32">
+            <summary>设置 backup.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.instructionsGet">
+            <summary>设置 backup.get_instructions() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.instructionsSetString">
+            <summary>设置 backup.set_instructions(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.relativepathGet">
+            <summary>设置 backup.get_relativepath() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.relativepathSetString">
+            <summary>设置 backup.set_relativepath(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Model.Fakes.Shimbackup.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.absolutepathGet">
+            <summary>设置 backup.get_absolutepath() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.absolutepathSetString">
+            <summary>设置 backup.set_absolutepath(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backupnameGet">
+            <summary>设置 backup.get_backupname() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backupnameSetString">
+            <summary>设置 backup.set_backupname(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backuppersonnelGet">
+            <summary>设置 backup.get_backuppersonnel() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backuppersonnelSetString">
+            <summary>设置 backup.set_backuppersonnel(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backupsizeGet">
+            <summary>设置 backup.get_backupsize() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backupsizeSetString">
+            <summary>设置 backup.set_backupsize(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backuptimeGet">
+            <summary>设置 backup.get_backuptime() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.backuptimeSetNullableOfDateTime">
+            <summary>设置 backup.set_backuptime(Nullable`1&lt;DateTime&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.databasenameGet">
+            <summary>设置 backup.get_databasename() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.databasenameSetString">
+            <summary>设置 backup.set_databasename(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.idGet">
+            <summary>设置 backup.get_id() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.idSetInt32">
+            <summary>设置 backup.set_id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.instructionsGet">
+            <summary>设置 backup.get_instructions() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.instructionsSetString">
+            <summary>设置 backup.set_instructions(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.relativepathGet">
+            <summary>设置 backup.get_relativepath() 的 填充码</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Shimbackup.AllInstances.relativepathSetString">
+            <summary>设置 backup.set_relativepath(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Diana.model.Model.Fakes.Stubbackup">
+            <summary>Diana.model.Model.backup 的存根类型</summary>
+        </member>
+        <member name="M:Diana.model.Model.Fakes.Stubbackup.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Diana.model.Model.Fakes.Stubbackup.InitializeStub">
+            <summary>初始化 type Stubbackup 的新实例</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Stubbackup.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Stubbackup.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Diana.model.Model.Fakes.Stubbackup.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,199 @@
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.model.Fakes.fakesconfig
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.common.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.Idal.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.model.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\ServiceStack.Redis.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\NPOI.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\itextsharp.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Newtonsoft.Json.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\NVelocity.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\ServiceStack.Interfaces.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\ServiceStack.Text.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\basedal.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\BouncyCastle.Crypto.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\ServiceStack.Common.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.Idal.pdb
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.common.pdb
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\Diana.model.pdb
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\basedal.pdb
+D:\SourceCode\DotNet\Diana\mydal\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\mydal.csprojFakesResolveAssemblyReference.cache
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\Diana.model.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.pdb
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.xml
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\Diana.model.pdb
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\Microsoft.QualityTools.Testing.Fakes.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\f.ah
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\f.ch
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\f.cs
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\f.csproj
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\f.fakes
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\f.fakesconfig
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.pdb
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\o\f.csproj.FileListAbsolute.txt
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\d\o\f.csprojResolveAssemblyReference.cache
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\Fakes\fakes.args
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\mydal.csprojResolveAssemblyReference.cache
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\mydal.dll
+D:\SourceCode\DotNet\Diana\mydal\obj\Debug\mydal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.mydal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.mydal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.model.Fakes.fakesconfig
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.common.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.Idal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Memcached.ClientLibrary.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\ServiceStack.Redis.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\NPOI.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\itextsharp.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Microsoft.Practices.Unity.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Newtonsoft.Json.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\NVelocity.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\ServiceStack.Interfaces.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\ServiceStack.Text.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\log4net.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\basedal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\ServiceStack.Common.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.Idal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.common.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\Memcached.ClientLibrary.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\log4net.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\basedal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\mydal.csprojFakesResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Microsoft.QualityTools.Testing.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\f.ah
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\f.ch
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\f.cs
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\f.csproj
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\f.fakes
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\f.fakesconfig
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\f.csproj.FileListAbsolute.txt
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\f.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\fakes.args
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\mydal.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Diana.mydal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Diana.mydal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.mydal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.mydal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.model.Fakes.fakesconfig
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.common.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.Idal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Memcached.ClientLibrary.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\ServiceStack.Redis.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\NPOI.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\itextsharp.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Microsoft.Practices.Unity.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Newtonsoft.Json.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\NVelocity.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\ServiceStack.Interfaces.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\ServiceStack.Text.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\log4net.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\basedal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\ServiceStack.Common.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.Idal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.common.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\Memcached.ClientLibrary.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\log4net.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\basedal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\mydal.csprojFakesResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Microsoft.QualityTools.Testing.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\f.ah
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\f.ch
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\f.cs
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\f.csproj
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\f.fakes
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\f.fakesconfig
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\f.csproj.FileListAbsolute.txt
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\f.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\fakes.args
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\mydal.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Diana.mydal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Diana.mydal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\mydal.csprojFakesResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\Microsoft.QualityTools.Testing.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\f.ah
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\f.ch
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\f.cs
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\f.csproj
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\f.fakes
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\f.fakesconfig
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\o\f.csproj.FileListAbsolute.txt
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\d\o\f.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Fakes\fakes.args
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\mydal.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Diana.mydal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\obj\Debug\Diana.mydal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.mydal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.mydal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.model.Fakes.fakesconfig
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.common.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.Idal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Memcached.ClientLibrary.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\ServiceStack.Redis.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\NPOI.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\itextsharp.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Microsoft.Practices.Unity.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Newtonsoft.Json.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\NVelocity.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\ServiceStack.Interfaces.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\ServiceStack.Text.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\log4net.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\basedal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\ServiceStack.Common.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.Idal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.common.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\Memcached.ClientLibrary.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\log4net.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\basedal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\轻量级框架\Diana0.0.1版本轻量级框架\code\Diana0.01\mydal\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll

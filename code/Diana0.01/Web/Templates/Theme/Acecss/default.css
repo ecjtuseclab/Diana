@@ -1,0 +1,58 @@
+﻿.container {
+    width:auto;
+}
+#allmap,#welcome{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+#welcome h3 {
+    text-align:center;
+}
+#qrcode {
+    width:300px;
+    height:300px;
+    margin:15px auto;
+}
+#disp {
+    text-align:center;
+}
+#disp span{
+    font-size:18px;
+}
+#more_detail {
+    margin-top:25px;
+    padding-left:145px;
+}
+#weather,#contact {
+    height:300px;
+    width:auto;
+}
+#weather_left {
+    width:200px;
+}
+#temperature {
+    font-size:75px;
+    width:200px;
+    text-align:center;
+}
+#weather_text,#week {
+    font-size:20px;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+}
+#location {
+    font-size:18px;
+    padding:5px 40px;
+}
+#weather_icon img {
+    width:180px;
+    height:180px;
+}
+
+
+

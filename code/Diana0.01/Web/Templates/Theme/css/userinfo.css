@@ -1,0 +1,48 @@
+﻿body {
+    background:url(../../Theme/img/samples/background.gif)
+}
+.person-top {
+    margin:auto;
+    width:960px;
+    height:215px;
+    position:relative;
+    background:url(../../Theme/img/samples/top_pic.jpg);
+}
+.top-bar {
+    width:960px;
+    height:60px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    line-height:60px;
+}
+.top-left {
+    float:left;
+}
+.uphoto {
+    float:left;
+}
+.uphoto img {
+    width:100px;
+    height:100px;
+    margin:-60px 0 0 20px;
+}
+.uname {
+    margin-left:10px;
+    float:left;
+    color:white;
+    font-size:18px;
+}
+.udisc {
+    color:white;
+    font-size:16px;
+}
+
+
+.main-content {
+    width:960px;
+    margin:8px auto;
+}
+.album_box {
+    margin-top:10px;
+}

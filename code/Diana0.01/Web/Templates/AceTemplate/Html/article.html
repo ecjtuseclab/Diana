@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <link href="Templates/Theme/wdtree/tree.css" rel="stylesheet" />
+    <link href="Templates/Theme/select2/select2.min.css" rel="stylesheet" />
+    <link href="Templates/Theme/wizard/wizard.css" rel="stylesheet" />
+    #include("../AceTemplate/Module/_indexModule.html")
+    <script type="text/javascript" src="Templates/Theme/wdtree/tree.js"></script>
+    <script type="text/javascript" src="Templates/Theme/select2/select2.min.js"></script>
+    <script type="text/javascript" src="Templates/Theme/wizard/wizard.js"></script>
+    <script type="text/javascript" src="Templates/Theme/Acejs/framework-ui.js"></script>
+    
+    <script src="Templates/Theme/UEditor/ueditor.config.js"></script>
+    <script src="Templates/Theme/UEditor/ueditor.all.js"></script>
+    <link href="Templates/Theme/UEditor/themes/iframe.css" rel="stylesheet" />
+    <script src="Templates/Theme/UEditor/lang/zh-cn/zh-cn.js"></script>
+    <script src="Templates/Theme/ajaxfileupload/ajaxfileupload.js"></script>
+
+
+    #set($JQ="$.")
+</head>
+<body>
+    <div class="topPanel">
+        <div class="toolbar">
+            <div class="btn-group">
+                <a class="btn btn-primary" onclick="$ace.reload()"><span class="glyphicon glyphicon-refresh"></span></a>
+            </div>
+            <div class="btn-group">
+                <button id="btnedit" name="edit" class="btn btn-primary" data-bind="click:Edit,attr:{disabled:!DataTable.SelectedModel()}"><i class="fa fa-pencil-square-o"></i>修改</button>
+                <button class="btn btn-primary" data-bind="click:Delete,attr:{disabled:!DataTable.SelectedModel()}"><i class="fa fa-trash-o"></i>删除</button>
+                <button class="btn btn-primary" data-bind="click:Add"><i class="fa fa-plus"></i>添加</button>
+                <button class="btn btn-primary" data-bind="click:Detail,attr:{disabled:!DataTable.SelectedModel()}"><i class="fa fa-pencil-square-o"></i>详情</button>
+            </div>
+        </div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        <div class="input-group">
+                            <input id="txt_keyword" type="text" class="form-control" placeholder="标题" style="width: 200px;" data-bind="value:SearchModel().keyword">
+                            <span class="input-group-btn">
+                                <button id="btn_search" type="button" class="btn  btn-primary" data-bind="click:Search"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover" data-bind="with:DataTable">
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>标题</th>
+                    <th>修改时间</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach:Models">
+                <tr data-bind="click:$parent.SelectRow">
+                    <td data-bind="text:$index()+1"></td>
+                    <td data-bind="text:title"></td>
+                    <td data-bind="text:edittime"></td>
+                </tr>
+            </tbody>
+            <!-- 分页-->
+            #include("../AceTemplate/Module/Page.html")
+        </table>
+    </div>
+    <script src="Templates/AceTemplate/js/article.js"></script>
+
+</body>
+</html>

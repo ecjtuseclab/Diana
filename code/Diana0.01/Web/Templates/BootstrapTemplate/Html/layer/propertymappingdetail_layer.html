@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    #include("../BootstrapTemplate/Module/_formModule.html")
+    #set($JQ="$.") 
+    <script>
+        var keyValue = ${JQ}request("keyValue");
+        $(function () {
+            if (!!keyValue) {
+                ${JQ}ajax({
+                    url: "../index.ashx?ctrl=propertymapping&action=GetFormJson",
+                    data: { keyValue: keyValue },
+                    dataType: "json",
+                    async: false,
+                    success: function (data) {
+                        $("#form1").formSerialize(data);
+                        $("#form1").find('.form-control,select,input').attr('readonly', 'readonly');
+                        $("#form1").find('div.ckbox label').attr('for', '');
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <form id="form1">
+        <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#">基本信息</a></li>
+            </ul>
+            <div style="padding-top: 20px; margin-right: 30px;">
+                <table class="form">
+                    <tr>
+                        <td class="formTitle">名称</td>
+                        <td class="formValue">
+                            <input id="propertyName" name="propertyName" type="text" class="form-control required"  />
+                        </td>
+                        <td class="formTitle">值</td>
+                        <td class="formValue">
+                            <input id="propertyValue" name="propertyValue" type="text" class="form-control required"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="formTitle">描述</td>
+                        <td class="formValue">
+                            <input id="propertyMeaning" name="propertyMeaning" type="text" class="form-control"  />
+                        </td>
+                        <td class="formTitle">上级</td>
+                        <td class="formValue">
+                            <input id="parentId" name="parentId" type="text" class="form-control"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="formTitle" valign="top" style="padding-top: 5px;">备注</td>
+                        <td class="formValue" colspan="3">
+                            <textarea id="remark" name="remark" class="form-control" style="height: 60px;"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.xml
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Microsoft.QualityTools.Testing.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\f.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.xml
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.Fakes.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Microsoft.QualityTools.Testing.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\f.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\mydal\obj\Debug\Fakes\d\o\Diana.model.Fakes.pdb

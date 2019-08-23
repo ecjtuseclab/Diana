@@ -1,0 +1,104 @@
+
+----------------------header--------------------------
+2018-01-23 08:47:12,885 [16] ERROR Demo - URl：/index.ashx
+引发异常的方法：Void SaveSessionID(System.Web.HttpContext, System.String, Boolean ByRef, Boolean ByRef)
+错误信息：会话状态已创建一个会话 ID，但由于响应已被应用程序刷新而无法保存它。
+错误堆栈：   在 System.Web.SessionState.SessionIDManager.SaveSessionID(HttpContext context, String id, Boolean& redirected, Boolean& cookieAdded)
+   在 System.Web.SessionState.SessionStateModule.CreateSessionId()
+   在 System.Web.SessionState.SessionStateModule.DelayedGetSessionId()
+   在 System.Web.SessionState.SessionStateModule.ReleaseStateGetSessionID()
+   在 System.Web.SessionState.SessionStateModule.OnReleaseState(Object source, EventArgs eventArgs)
+   在 System.Web.SessionState.SessionStateModule.OnEndRequest(Object source, EventArgs eventArgs)
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------header--------------------------
+2018-01-23 08:48:08,139 [8] ERROR Demo - URl：/index.ashx
+引发异常的方法：Void SaveSessionID(System.Web.HttpContext, System.String, Boolean ByRef, Boolean ByRef)
+错误信息：会话状态已创建一个会话 ID，但由于响应已被应用程序刷新而无法保存它。
+错误堆栈：   在 System.Web.SessionState.SessionIDManager.SaveSessionID(HttpContext context, String id, Boolean& redirected, Boolean& cookieAdded)
+   在 System.Web.SessionState.SessionStateModule.CreateSessionId()
+   在 System.Web.SessionState.SessionStateModule.DelayedGetSessionId()
+   在 System.Web.SessionState.SessionStateModule.ReleaseStateGetSessionID()
+   在 System.Web.SessionState.SessionStateModule.OnReleaseState(Object source, EventArgs eventArgs)
+   在 System.Web.SessionState.SessionStateModule.OnEndRequest(Object source, EventArgs eventArgs)
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------header--------------------------
+2018-01-23 09:47:52,698 [5] ERROR Demo - URl：/index.ashx
+引发异常的方法：Void SaveSessionID(System.Web.HttpContext, System.String, Boolean ByRef, Boolean ByRef)
+错误信息：会话状态已创建一个会话 ID，但由于响应已被应用程序刷新而无法保存它。
+错误堆栈：   在 System.Web.SessionState.SessionIDManager.SaveSessionID(HttpContext context, String id, Boolean& redirected, Boolean& cookieAdded)
+   在 System.Web.SessionState.SessionStateModule.CreateSessionId()
+   在 System.Web.SessionState.SessionStateModule.DelayedGetSessionId()
+   在 System.Web.SessionState.SessionStateModule.ReleaseStateGetSessionID()
+   在 System.Web.SessionState.SessionStateModule.OnReleaseState(Object source, EventArgs eventArgs)
+   在 System.Web.SessionState.SessionStateModule.OnEndRequest(Object source, EventArgs eventArgs)
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2018-01-23 11:21:40,028 [9] ERROR Demo - URl：/Templates/NFineTemplate/index.ashx?ctrl=default
+引发异常的方法：Void CheckVirtualFileExists(System.Web.VirtualPath)
+错误信息：文件“/Templates/NFineTemplate/index.ashx”不存在。
+错误堆栈：   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   在 System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2018-01-23 13:11:39,526 [8] ERROR Demo - URl：/Templates/NFineTemplate/index.ashx?ctrl=default
+引发异常的方法：Void CheckVirtualFileExists(System.Web.VirtualPath)
+错误信息：文件“/Templates/NFineTemplate/index.ashx”不存在。
+错误堆栈：   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   在 System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------

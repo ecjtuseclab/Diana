@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    #include("../AceTemplate/Module/_indexModule.html")
+    <script type="text/javascript" src="Templates/AceTemplate/js/workflownode.js"></script>
+    #set($JQ="$.")
+    #set($rootJQ="$root.")
+
+</head>
+<body>
+    <div class="topPanel">
+        <div class="toolbar">
+            <div class="btn-group">
+                <a class="btn btn-primary" onclick="$ace.reload()"><span class="glyphicon glyphicon-refresh"></span></a>
+            </div>
+           <div class="btn-group">
+                <button class="btn btn-primary" data-bind="click:Edit,attr:{disabled:!DataTable.SelectedModel()}"><i class="fa fa-pencil-square-o"></i>修改</button>
+                <button class="btn btn-primary" data-bind="click:Delete,attr:{disabled:!DataTable.SelectedModel()}"><i class="fa fa-trash-o"></i>删除</button>
+                <button class="btn btn-primary" data-bind="click:Add"><i class="fa fa-plus"></i>添加</button>
+                <button class="btn btn-primary" data-bind="click:Detail,attr:{disabled:!DataTable.SelectedModel()}"><i class="fa fa-pencil-square-o"></i>详情</button>
+            </div>
+        </div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        <div class="input-group">
+                            <input id="txt_keyword" type="text" class="form-control" placeholder="动作名称" style="width: 200px;" data-bind="value:SearchModel().keyword">
+                            <span class="input-group-btn">
+                                <button id="btn_search" type="button" class="btn  btn-primary" data-bind="click:Search"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover" data-bind="with:DataTable">
+            <thead>
+                <tr>
+                    <th style="width: 20px;"></th>
+                    <th>所属工作流</th>
+                    <th>节点名称</th>
+                    <th>节点描述</th>
+                    <th>节点开始时间</th>
+                    <th>节点结束时间</th>
+                    <th>节点状态</th>
+                    <th>锁定状态</th>
+                </tr>
+            </thead>
+           
+            <tbody data-bind="foreach:Models">
+                <tr data-bind="click:$parent.SelectRow">
+                    <td data-bind="text:$index()+1"></td>
+                    <td data-bind="text:${rootJQ}getWfName(wfid())"></td>
+                 <!--<td data-bind='text:${aceJQ}getOptionTextByValue("$WorkflowList",wfid())'></td>-->
+                   <!--  <td data-bind="text:wfnodename"></td>-->
+                    <td data-bind="text:wfnodename"></td>
+                    <td data-bind="text:wfnodememo"></td>
+                    <td data-bind="text:wfnodebegintime"></td>
+                    <td data-bind="text:wfnodeendtime"></td>
+                    <td data-bind="text:wfnodestatus()==1?'已启用':'未启用'"></td>
+                    <td data-bind="text:wfnodelock()==1?'未锁定':'已锁定'"></td>
+                </tr>
+            </tbody>
+            <!-- 分页-->
+            #include("../AceTemplate/Module/Page.html")
+        </table>
+    </div>
+    <!--//对话框(新增，修改)-->
+    #include("../AceTemplate/Module/BeginDialogParam.html")
+    <form id="form1">
+        <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">表单信息</h3>
+                </div>
+                <div class="panel-body" style="width: 98%;">
+                    <table class="form">
+                        <tr>
+                            <td class="formTitle">所属工作流</td>
+                            <td class="formValue">
+                                <select id="Select1" name="wfid" class="form-control" data-bind="value:Model().wfid">
+                                    #foreach($wf in $WorkflowList)			
+	                                    <option value="$wf.Value">$wf.Text</option>
+                                    #end
+                                </select>
+                            </td>
+                            <td class="formTitle">节点名称</td>
+                            <td class="formValue">
+                                <input id="wfnodename" name="wfnodename" type="text" class="form-control" data-bind="value:Model().wfnodename" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formTitle">开始时间</td>
+                            <td class="formValue">
+                                <input id="wfnodebegintime" name="wfnodebegintime" type="text" class="form-control input-wdatepicker Wdate" onclick="WdatePicker({ dateFmt: 'yyyy-MM-dd' })" data-bind="value:Model().wfnodebegintime" />
+                            </td>
+                            <td class="formTitle">结束时间</td>
+                            <td class="formValue">
+                                <input id="wfnodeendtime" name="wfnodeendtime" type="text" class="form-control input-wdatepicker Wdate" onclick="WdatePicker({ dateFmt: 'yyyy-MM-dd' })" data-bind="value:Model().wfnodeendtime" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formTitle">节点状态</td>
+                            <td class="formValue">
+                                <select id="Select2" name="wfnodestatus" class="form-control " data-bind="value:Model().wfnodestatus">
+                                    <option value="1" selected="selected">已启用</option>
+                                    <option value="2">未启用</option>
+                                </select>
+                            </td>
+                            <td class="formTitle">锁定状态</td>
+                            <td class="formValue">
+                                <select id="Select3" name="wfnodelock" class="form-control " data-bind="value:Model().wfnodelock">
+                                    <option value="1" selected="selected">未锁定</option>
+                                    <option value="2">已锁定</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formTitle">节点描述</td>
+                            <td class="formValue">
+                                <input id="wfnodememo" name="wfnodememo" type="text" class="form-control" data-bind="value:Model().wfnodememo" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+    #include("../AceTemplate/Module/EndDialogParam.html")
+    <!--详情对话框-->
+    #include("../AceTemplate/Module/BeginDialogDetail.html")
+    <form id="Detailform">
+        <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">表单信息</h3>
+                </div>
+                <div class="panel-body" style="width: 98%;">
+                    <table class="form">
+                        <tr>
+                            <td class="formTitle">工作流：</td>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="text:Model().wfid"></label>
+                            </td>
+                            <td class="formTitle">节点名称:</td>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="text:Model().wfnodename"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formTitle">开始时间：</td>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="dateString:Model().wfnodebegintime"></label>
+                            </td>
+                            <td class="formTitle">结束时间：</td>
+                        </tr>
+                        <tr>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="dateString:Model().wfnodeendtime"></label>
+                            </td>
+                            <td class="formTitle">节点状态：</td>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="text:Model().wfnodestatus==1?'已启用':'未启用'"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formTitle">锁定状态：</td>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="text:Model().wfnodelock==1?'未锁定':'已锁定'"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formTitle">节点描述</td>
+                            <td class="formValue">
+                                <label class="form-control" data-bind="dateString:Model().wfnodememo"></label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+    #include("../AceTemplate/Module/EndDialogDetail.html")
+</body>
+</html>

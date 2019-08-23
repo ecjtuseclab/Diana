@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <link href="Templates/Theme/wdtree/tree.css" rel="stylesheet" />
+    <link href="Templates/Theme/select2/select2.min.css" rel="stylesheet" />
+    <link href="Templates/Theme/wizard/wizard.css" rel="stylesheet" />
+    #include("../AceTemplate/Module/_indexModule.html")
+    <script type="text/javascript" src="Templates/Theme/wdtree/tree.js"></script>
+    <script type="text/javascript" src="Templates/Theme/select2/select2.min.js"></script>
+    <script type="text/javascript" src="Templates/Theme/wizard/wizard.js"></script>
+    <script type="text/javascript" src="Templates/Theme/Acejs/framework-ui.js"></script>
+    #set($JQ="$.")
+</head>
+<body>
+    <div class="topPanel">
+        <div class="toolbar">
+            <div class="btn-group">
+                <a class="btn btn-primary" onclick="$ace.reload()"><span class="glyphicon glyphicon-refresh"></span></a>
+            </div>
+             <div class="btn-group">
+                #foreach($button in $btns)
+	                 <button class="btn btn-primary" data-bind="$button.resourceAcescript"><i class="$button.resourceleftico"></i>$button.resourcename</button>
+                #end
+             </div>
+        </div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        <div class="input-group">
+                            <input id="txt_keyword" type="text" class="form-control" placeholder="动作名称" style="width: 200px;" data-bind="value:SearchModel().keyword">
+                            <span class="input-group-btn">
+                                <button id="btn_search" type="button" class="btn  btn-primary" data-bind="click:Search"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover" data-bind="with:DataTable">
+            <thead>
+                <tr>
+                    <th style="width: 20px;"></th>
+                    <th>动作名称</th>
+                    <th>动作编码</th>
+                    <th>动作所属</th>
+                    <th>动作类型</th>
+                    <th>动作地址</th>
+                    <th>动作参数</th>
+                    <th>控制器名称</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach:Models">
+                <tr data-bind="click:$parent.SelectRow">
+                    <td data-bind="text:$index()+1"></td>
+                    <td data-bind="text:actionname,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:actioncode,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:actionowner,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:actiontype,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:actionurl,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:actionparam,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:controlername,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                </tr>
+            </tbody>
+            <!-- 分页-->
+            #include("../AceTemplate/Module/Page.html")
+        </table>
+    </div>
+    <!--//对话框(新增，修改)-->
+    #include("../AceTemplate/Module/BeginDialogParam.html")
+        <form id="form1">
+            <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">表单信息</h3>
+                    </div>
+                    <div class="panel-body" style="width: 98%;">
+                        <table class="form">
+                            <tr>
+                                <th class="formTitle">动作名称</th>
+                                <td class="formValue">
+                                    <input id="actionname" name="actionname" type="text" class="form-control required" placeholder="动作名称" data-bind="value:Model().actionname" />
+                                </td>
+                                <th class="formTitle">动作类型</th>
+                                <td class="formValue">
+                                   
+                                    <select id="actiontype" name="actiontype" class="form-control required" data-bind="value:Model().actiontype">
+                                        <option value="">==请选择==</option>
+                                        <option value="1" title="1">菜单默认动作</option>
+                                        <option value="2" title="2">特定工作流动作</option>
+                                        <option value="3" title="3">控制器动作</option>
+                                        <option value="4" title="4">通用工作流动作</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle">动作所属</th>
+                                <td class="formValue">
+                                    <select id="actionowner" name="actionowner" class="form-control required" placeholder="动作所属" data-bind="value:Model().actionowner">
+                                         <option value="0">无上级</option>
+                                    </select>
+                                </td>
+                                <th class="formTitle">动作编码</th>
+                                <td class="formValue">
+                                    <input id="actioncode" name="actioncode" type="text" class="form-control required" placeholder="动作编码" data-bind="value:Model().actioncode" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle">动作路径</th>
+                                <td class="formValue">
+                                    <input id="actionurl" name="actionurl" type="text" class="form-control required" placeholder="动作路径" data-bind="value:Model().actionurl" />
+                                </td>
+                                <th class="formTitle">动作参数</th>
+                                <td class="formValue">
+                                    <input id="actionparam" name="actionparam" type="text" class="form-control required" placeholder="动作参数" data-bind="value:Model().actionparam" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle" valign="top" style="padding-top: 5px;">控制器名称</th>
+                                <td class="formValue" colspan="3">
+                                    <input id="controlername" name="controlername" type="text" class="form-control required" placeholder="控制器名称" data-bind="value:Model().controlername" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>
+    #include("../AceTemplate/Module/EndDialogParam.html")
+    <!--详情对话框-->
+    #include("../AceTemplate/Module/BeginDialogDetail.html")
+    <form id="Detailform">
+            <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">表单信息</h3>
+                    </div>
+                    <div class="panel-body" style="width: 98%;">
+                        <table class="form">
+                            <tr>
+                                <th class="formTitle">动作名称</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().actionname"></label>
+                                </td>
+                                <th class="formTitle">动作类型</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().actiontype"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle">动作所属</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().actionowner"></label>
+                                </td>
+                                <th class="formTitle">动作编码</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().actioncode"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle">动作路径</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().actionurl"></label>
+                                </td>
+                                <th class="formTitle">动作参数</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().actionparam"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle" valign="top" style="padding-top: 5px;">控制器名称</th>
+                                <td class="formValue" colspan="3">
+                                    <label class="form-control" data-bind="text:Model().controlername"></label>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>
+    #include("../AceTemplate/Module/EndDialogDetail.html")
+    <script type="text/javascript" src="Templates/AceTemplate/js/action.js"></script>
+</body>
+</html>

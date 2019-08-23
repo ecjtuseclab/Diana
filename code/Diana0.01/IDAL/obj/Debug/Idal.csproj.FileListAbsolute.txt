@@ -1,0 +1,21 @@
+D:\SourceCode\DotNet\Diana\IDAL\bin\Debug\Diana.Idal.dll
+D:\SourceCode\DotNet\Diana\IDAL\bin\Debug\Diana.Idal.pdb
+D:\SourceCode\DotNet\Diana\IDAL\bin\Debug\Diana.model.dll
+D:\SourceCode\DotNet\Diana\IDAL\bin\Debug\Diana.model.pdb
+D:\SourceCode\DotNet\Diana\IDAL\obj\Debug\Idal.csprojResolveAssemblyReference.cache
+D:\SourceCode\DotNet\Diana\IDAL\obj\Debug\Diana.Idal.dll
+D:\SourceCode\DotNet\Diana\IDAL\obj\Debug\Diana.Idal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\bin\Debug\Diana.Idal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\bin\Debug\Diana.Idal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\bin\Debug\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\bin\Debug\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\obj\Debug\Idal.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\obj\Debug\Diana.Idal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\IDAL\obj\Debug\Diana.Idal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\bin\Debug\Diana.Idal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\bin\Debug\Diana.Idal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\bin\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\bin\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\obj\Debug\Idal.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\obj\Debug\Diana.Idal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\IDAL\obj\Debug\Diana.Idal.pdb

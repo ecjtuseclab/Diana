@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type"  content="text/html; charset=utf-8" />
+    <title></title>
+    #include("../BootstrapTemplate/Module/_formModule.html")
+    <script src="Templates/Theme/UEditor/ueditor.config.js"></script>
+    <script src="Templates/Theme/UEditor/ueditor.all.js"></script>
+    <link href="Templates/Theme/UEditor/themes/iframe.css" rel="stylesheet" />
+    <script src="Templates/Theme/UEditor/lang/zh-cn/zh-cn.js"></script>
+    <script src="Templates/Theme/ajaxfileupload/ajaxfileupload.js"></script>
+    #set($JQ="$.") 
+    <script>
+
+        var keyValue = ${JQ}request("keyValue");
+        $(function () {
+            UE.delEditor('Content');
+            if (!!keyValue) {
+                ${JQ}ajax({
+                    url: "../index.ashx?ctrl=article&action=GetFormJson",
+                    data: { keyValue: keyValue },
+                    dataType: "json",
+                    async: false,
+                    success: function (data) {
+                        $("#form1").formSerialize(data);
+                        $("#form1").find('.form-control,select,input').attr('readonly', 'readonly');
+                        $("#form1").find('div.ckbox label').attr('for', '');
+
+                    }
+                });
+            }
+            
+            var ue = UE.getEditor('content', { initialFrameHeight: 500, readonly: true });
+        });
+    </script>
+</head>
+<body>
+    <div id="form" style="border: 1px solid #ddd;">
+        <form id="form1">
+            <div style="margin-right: 30px;">
+                <table class="form">
+                    <tr>
+                        <th class="formTitle">标题</th>
+                        <td class="formValue">
+                            <input id="title" name="title" type="text" class="form-control" />
+                        </td>
+                        <th class="formTitle">类型</th>
+                        <td class="formValue">
+                            <select id="type" name="type" class="form-control required">
+                                <option value="">==请选择==</option>
+                                #foreach($type in $types)
+                                <option value="$type.propertyValue">$type.propertyMeaning</option>
+                                #end
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">内容</th>
+                        <td class="formValue" colspan="3">
+                            <textarea id="content" name="content" style="width:100%"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <script src="Templates/Theme/iColorPicker.js"></script>
+        <div align="right" style="margin: 5px 30px 5px 0">
+            <a class="layui-layer-btn1 btn btn-danger" onclick="history.go(-1)">返回</a>
+        </div>
+    </div>
+</body>
+</html>

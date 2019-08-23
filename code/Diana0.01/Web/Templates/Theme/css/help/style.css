@@ -1,0 +1,473 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing:content-box !important;
+}
+li{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/*head*/
+.head{
+    height: 100px;
+    background-color: #003478;
+    width: 100%;
+    min-width: 1250px;
+}
+
+/*搜索栏部分*/
+
+#search-body  {
+    width: 1180px;
+    height: 50px;
+    margin: 0 auto;
+}
+#search #searchArea {
+    float: right;
+    position: relative;
+    height: 50px;
+}
+#searchArea input {
+    border: none;
+    box-sizing: initial;
+}
+
+#txt_value {
+    width: 300px;
+    padding: 6px 8px;
+    margin: 11px auto;
+    background-color: white;
+    color: #030303;
+    border-radius: 8px;
+}
+
+#btn_search {
+    position: absolute;
+    left: 290px;
+    top: 15px;
+    height: 20px;
+    width: 19px;
+    background: url(/Templates/Theme/img/samples/searchBtn.png) no-repeat;
+    cursor: pointer;
+}
+
+/*导航部分 */
+#hMiddle {
+    position: relative;
+    width: 1184px;
+    min-width: 1184px;
+    margin: 0 auto;
+}
+
+#headBg {
+    position: absolute;
+    height: 179px;
+    width: 100%;
+    min-width: 1250px;
+    max-height: 179px;
+}
+#logo {
+    height: 75px;
+    padding: 27px 0 20px 15px;
+}
+#navBar {
+    position: relative;
+    font-size: 14px;
+    height: 57px;
+    line-height: 57px;
+    background-color: #28828a;
+    background: url(/Templates/Theme/img/samples/mainNavBg.png) no-repeat;
+    width: 1346px;
+    left: -80px;
+}
+
+#navBar>ul {
+    padding-left: 79px;
+    margin-bottom:0;
+}
+.dropEffect {
+    float: left;
+    width: 129px;
+    height: 57px;
+    margin-left: 2px;
+}
+.dropEffect:first-child {
+    width: 131px;
+}
+.dropEffect a {
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.dropEffect>a {
+    display: block;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    margin: 12px 0;
+    border-right: 2px solid #fff;
+    position: relative;
+    left: -2px;
+    width: 131px;
+}
+.dropEffect:first-child>a {
+    border-left: 2px solid #fff;
+}
+.dropEffect>ul {
+    position: relative;
+    width: 129px;
+    height: 0;
+    overflow: hidden;
+    z-index: 13;
+    background-color: #6C99B9;
+    background-color: rgba(108, 153, 185, 0.9);
+    padding: 0;
+}
+
+#headBg2 {
+    position: absolute;
+    top: 229px;
+    left: 0;
+    width: 100%;
+    min-width: 1250px;
+    max-height: 360px;
+}
+
+.content {
+    margin: 0 auto;
+    /*padding: 25px 0;*/
+    width: 1184px;
+    font-size: 14px;
+}
+.content a {
+    color: #2a2a2a;
+}
+.content a:hover {
+    color: green;
+}
+.leftside {
+    position: relative;
+    width: 888px;
+    float: left;
+}
+.focus>p,.dtact>p,.stuwork>p,.Notice p,.Job p{
+    position: relative;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #003478;
+}
+.focus>p a,.dtact>p a,.stuwork>p a,.Notice p a,.Job p a{
+    position: absolute;
+    right: 0;
+}
+.focus .newsImg{
+    float: left;
+    border:1px  solid #eee;
+}
+.focus .newsImg img {
+    width: 380px;
+    height: 210px;
+    border:1px  solid #eee;
+}
+.newsImg_title {
+    padding:5px 10px;
+}
+.focus ul {
+    position: relative;
+    width: 478px;
+    height: 255px;
+    float: right;
+    overflow: hidden;
+}
+.focus ul>li.liFirst>a,.dtact ul>li.liFirst>a,.stuwork ul>li.liFirst>a {
+    font-weight: bold;
+}
+.focus ul>li>a,.stuwork ul>li>a {
+    width: 396px;
+}
+.dtact ul>li>a{
+    width: 300px;
+}
+.focus ul>li>a,.dtact ul>li>a,.stuwork ul>li>a{
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Notice ul > li > a,.Job ul>li>a {
+    float: left;
+    height: 21px;
+    width:170px;
+    line-height: 21px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.focus ul>li>span,.dtact ul>li>span,.stuwork ul>li>span,.Notice ul>li>span,.Job ul>li>span{
+    float: right;
+    line-height: 21px;
+}
+.focus ul>li.liFirst>p,.dtact ul>li.liFirst>p,.stuwork ul>li.liFirst>p {
+    margin-bottom: 8px;
+}
+.focus ul>li>p,.dtact ul>li>p,.stuwork ul>li>p{
+    color: #666;
+    clear: both;
+    text-indent: 2em;
+    line-height: 30px;
+    padding: 11px 0 0px;
+}
+
+
+.dtact {
+    width: 380px;
+    height: 300px;
+    background-color: #fff;
+    clear: both;
+    float: left;
+    margin-top: 25px;
+}
+.stuwork {
+    width: 478px;
+    height: 300px;
+    background-color: #fff;
+    float: right;
+    margin-top: 25px;
+}
+
+
+.rightside {
+    width: 260px;
+    float: right;
+    position: relative;
+    top: 0;
+}
+.Notice ul {
+    height: 255px;
+}
+.Job{
+    margin-top: 35px;
+    height: 300px;
+}
+.Notice li,.Job li{
+    height: 32px;
+}
+.adv img{
+    margin-top:5px; 
+    width: 888px;
+    height: 90px;
+}
+.friendlink{
+    margin-top: 10px;
+    background: #daeeef;
+    width: 260px;
+    height: 190px;
+}
+.friendlink h3 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-bottom: 3px;
+}
+
+.friendlink li{
+    width: 200px;
+    margin: 0 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding:6px 0;
+}
+
+
+
+.clear{
+    clear: both;
+    height: 0;
+}
+.foot {
+    position: relative;
+    min-height: 80px;
+    background-color: #003478;
+    width: 100%;
+    min-width: 1250px;
+}
+.foot div {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.foot p {
+    color: white;
+    font-size: 12px;
+    height: 18px;
+    letter-spacing: 0.1em;
+}
+
+.curr_menu {
+    padding: 10px 15px;
+    background: #003478;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-left {
+    border-bottom: 1px solid #ddd;
+}
+.nav-left>li {
+    border: 1px solid #eee;
+}
+.intro {
+    padding-left:30px;
+}
+.intro-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.page-title {
+    font-size: 24px;
+    border-bottom: 2px solid #003478;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: -1px;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.bottom {
+    padding: 40px 0;
+    background: #F6F6F6;
+}
+.bottom h4
+{
+    border-bottom: 2px solid #003478;
+    padding-bottom: 10px;
+}
+.news_content {
+    padding:15px 100px;
+}
+.news_title {
+    margin-bottom:15px;
+}
+.news_title h3{
+    text-align:center;
+    padding-bottom:10px;
+    border-bottom:2px dotted #003478;
+}
+.Image_content {
+    padding:5px 100px;
+}
+.Image_content img {
+    width:440px;
+    height:260px;
+    margin:0 158px;
+}
+.Image_content h5 {
+    border-bottom:2px dotted #003478;
+    padding:10px 20px;
+    background:url(/Templates/Theme/img/samples/dt.gif) no-repeat left center;
+}
+.fLinks li {
+    float: left;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+ .fLinks li a {
+     color:#2a2a2a;
+    }
+ .fLinks li a:hover {
+    color: green;
+}
+.icon li {
+    float:left;
+    position:relative;
+}
+.icon li div:first-child{
+    width:82px;
+    height:82px;
+    margin:5px 24px;
+    cursor:pointer;
+}
+.qq_btn {
+    background: url(/Templates/Theme/img/samples/Wechaticon.png);
+}
+.qq_btn:hover {
+    background:url(/Templates/Theme/img/samples/Wechaticon.png);
+    background-position:0px -84px;
+}
+.sina_btn {
+    background:url(/Templates/Theme/img/samples/Wechaticon.png);
+    background-position:-84px 0px;
+}
+.sina_btn:hover {
+    background:url(/Templates/Theme/img/samples/Wechaticon.png);
+    background-position:-84px 134px;
+}
+.wechat_btn {
+    background:url(/Templates/Theme/img/samples/Wechaticon.png);
+    background-position:-168px 0px;
+}
+.wechat_btn:hover {
+    background:url(/Templates/Theme/img/samples/Wechaticon.png);
+    background-position:-168px 134px;
+}
+.qrcode {
+    position:absolute;
+    bottom:-20px;
+    right:85%;
+    width:200px;
+    height:200px;
+}
+.qrcode img {
+    max-width:200px;
+}
+.myside{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: right;
+    background: url(/Templates/Theme/img/samples/sidebgcolor.png);
+}
+.slidepoint {
+    bottom: -8px;
+    left: 35px;
+}
+.newsslide{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 35px;
+    padding: 8px;
+    line-height: 20px;
+    font-size: 14px;
+    background: url(/Templates/Theme/img/samples/sidebgcolor.png);
+}
+.newsslide a {
+    color:white;
+}
+.newspoint {
+    bottom: -8px;
+}
+.curument {
+    background-color:#eee;
+}
+.ui-jqgrid {
+    border:none;
+}
+.ui-jqgrid table{
+    border:none;
+}

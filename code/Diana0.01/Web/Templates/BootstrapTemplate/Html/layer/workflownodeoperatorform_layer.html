@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    #include("../BootstrapTemplate/Module/_formModule.html")
+    #set($JQ="$.") 
+    <script>
+        var keyValue = ${JQ}request("keyValue");
+        $(function () {
+            initControl();
+            if (!!keyValue) {
+                ${JQ}ajax({
+                    url: "../index.ashx?ctrl=workflownodeoperator&action=GetFormJson",
+                    data: { keyValue: keyValue },
+                    dataType: "json",
+                    async: false,
+                    success: function (data) {
+                        $("#form1").formSerialize(data);
+                    }
+                });
+            }
+        });
+        function initControl() {
+            $("#nodeactionid").bindSelect({
+                url: "../index.ashx?ctrl=workflownodeoperator&action=GetSelectNaJson",
+            });
+            $("#operatorid").bindSelect({
+                url: "../index.ashx?ctrl=workflownodeoperator&action=GetSelectUserJson",
+            });
+        }
+        function submitForm() {
+            if (!$('#form1').formValid()) {
+                return false;
+            }
+            ${JQ}submitForm({
+                url: "../index.ashx?ctrl=workflownodeoperator&action=SubmitForm&keyValue=" + keyValue,
+                param: $("#form1").formSerialize(),
+                success: function () {
+                    ${JQ}currentWindow().$("#gridList").trigger("reloadGrid");
+                }
+            })
+        }
+        $(function () {
+            $("#begintime").datepicker(
+                {
+                    changeMonth: true,
+                    changeYear: true,
+                    showButtonPanel: true
+                });
+            $("#endtime").datepicker(
+                {
+                    changeMonth: true,
+                    changeYear: true,
+                    showButtonPanel: true
+                });
+        })
+    </script>
+</head>
+<body>
+    <form id="form1">
+        <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#">基本信息</a></li>
+            </ul>
+            <div style="padding-top: 20px; margin-right: 30px;">
+                <table class="form">
+                    <tr>
+                        <th class="formTitle">节点动作</th>
+                        <td class="formValue">
+                            <select id="nodeactionid" name="nodeactionid" class="form-control">
+                            </select>
+                        </td>
+                        <th class="formTitle">操作者</th>
+                        <td class="formValue">
+                            <select id="operatorid" name="operatorid" class="form-control">
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">操作者类型</th>
+                        <td class="formValue">
+                            <select id="operatortype" name="operatortype" class="form-control required">
+                                <option value="">==请选择==</option>
+                                <option value="1" title="角色">角色</option>
+                                <option value="2" title="用户">用户</option>
+                            </select>
+                        </td>
+                        <th class="formTitle">开始时间</th>
+                        <td class="formValue">
+                            <input id="begintime" name="begintime" type="text" class="form-control required" placeholder="请输入开始时间" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">结束时间</th>
+                        <td class="formValue">
+                            <input id="endtime" name="endtime" type="text" class="form-control  required" placeholder="请输入结束时间" />
+                        </td>
+                        <th class="formTitle">操作状态</th>
+                        <td class="formValue">
+                            <select id="operatorstatus" name="operatorstatus" class="form-control required">
+                                <option value="">==请选择==</option>
+                                <option value="1" title="启用">启用</option>
+                                <option value="2" title="未启用">未启用</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">操作锁定状态</th>
+                        <td class="formValue">
+                            <select id="operatorlock" name="operatorlock" class="form-control required">
+                                <option value="">==请选择==</option>
+                                <option value="1" title="锁定">锁定</option>
+                                <option value="2" title="未锁定">未锁定</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

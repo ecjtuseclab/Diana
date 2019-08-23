@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    #include("../BootstrapTemplate/Module/_formModule.html")
+     #set($JQ="$.") 
+</head>
+    <script>
+        var keyValue = ${JQ}request("keyValue");
+        $(function () {
+            initControl();
+            if (!!keyValue) {
+                ${JQ}ajax({
+                    url: "../index.ashx?ctrl=resource&action=GetFormJson",
+                    data: { keyValue: keyValue },
+                    dataType: "json",
+                    async: false,
+                    success: function (data) {
+                        $("#form1").formSerialize(data);
+                    }
+                });
+            }
+        });
+        function initControl() {
+            $("#F_Target").select2({
+                minimumResultsForSearch: -1
+            });
+            $("#resourceowner").bindSelect({
+                url: "../index.ashx?ctrl=resource&action=GetTreeSelectJson",
+            });
+        }
+        function submitForm() {
+            if (!$('#form1').formValid()) {
+                return false;
+            }
+            ${JQ}submitForm({
+                url: "../index.ashx?ctrl=resource&action=SubmitForm&keyValue=" + keyValue,
+                param: $("#form1").formSerialize(),
+                success: function () {
+                    ${JQ}currentWindow().$("#gridList").trigger("reloadGrid");
+                }
+            })
+        }
+</script>
+<body>
+    <form id="form1">
+    <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+           <div class="alert alert-danger" style="text-align: left; margin-bottom: 10px;">
+                <i class="fa fa-warning alert-dismissible" style="position: relative; top: 1px; font-size: 15px; padding-right: 5px;"></i>
+                级别:1菜单资源,2工具条资源列表,3按钮资源列表               <br>
+                路径:动作触发路径 如../index.ashx?ctrl=login&action=login  <br>
+                左侧图标：资源所包含的左图标样式，不用默认为空             <br>
+                右侧图标：资源所包含的右图标样式，不用默认为空             <br>
+                脚本：按钮资源触发的js脚本方法  如btn_add() 
+            </div>
+
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">基本信息</a></li>
+        </ul>
+        <div style="padding-top: 20px; margin-right: 30px;">
+            <table class="form">
+                <tr>
+                    <th class="formTitle">上级</th>
+                    <td class="formValue">
+                        <select id="resourceowner" name="resourceowner" class="form-control">
+                            <option value="0">父节点</option>
+                        </select>
+                    </td>
+                    <th class="formTitle">名称</th>
+                    <td class="formValue">
+                        <input id="resourcename" name="resourcename" type="text" class="form-control"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">路径</th>
+                    <td class="formValue">
+                        <input id="resourceurl" name="resourceurl" type="text" class="form-control" />
+                    </td>
+                    <th class="formTitle">描述</th>
+                    <td class="formValue">
+                        <input id="description" name="description" type="text" class="form-control" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">类型</th>
+                    <td class="formValue">
+                        <select id="resourcetype" name="resourcetype" class="form-control">
+                            <option value="">==请选择==</option>
+                            <option value="1" title="1">菜单资源</option>
+                            <option value="2" title="2">工具条资源</option>
+                            <option value="3" title="3">按钮资源</option>
+                            <option value="4" title="4">脚本资源</option>
+                            <option value="6" title="6">工作流资源</option>
+                        </select>
+                    </td>
+                    <th class="formTitle">级别</th>
+                    <td class="formValue">
+                        <select id="resourceleval" name="resourceleval" class="form-control">
+                            <option value="">==请选择==</option>
+                            <option value="1" title="1">1级菜单</option>
+                            <option value="2" title="2">2级菜单</option>
+                            <option value="3" title="3">3级菜单</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">样式</th>
+                    <td class="formValue">
+                        <div class="input-group">
+                            <input id="resourceclass" name="resourceclass" type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <a class="btn  btn-primary"><i class="fa fa-ellipsis-h"></i></a>
+                            </span>
+                        </div>
+                    </td>
+                    <th class="formTitle">预警数量</th>
+                    <td class="formValue">
+                        <input id="resourcenumber" name="resourcenumber" type="text" class="form-control"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">左侧图标</th>
+                    <td class="formValue">
+                        <div class="input-group">
+                            <input id="resourceleftico" name="resourceleftico" type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <a class="btn  btn-primary"><i class="fa fa-ellipsis-h"></i></a>
+                            </span>
+                        </div>
+                    </td>
+                    <th class="formTitle">右侧图标</th>
+                    <td class="formValue">
+                        <div class="input-group">
+                            <input id="resourcerightico" name="resourcerightico" type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <a class="btn  btn-primary"><i class="fa fa-ellipsis-h"></i></a>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">排序</th>
+                    <td class="formValue">
+                        <input id="order" name="order" type="text" class="form-control" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle" valign="top" style="padding-top: 5px;">脚本
+                    </th>
+                    <td class="formValue" colspan="3">
+                        <textarea id="resourcescript" name="resourcescript" class="form-control" style="height: 100px;"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>
+</body>
+</html>

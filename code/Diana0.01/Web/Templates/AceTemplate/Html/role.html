@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <link href="Templates/Theme/wdtree/tree.css" rel="stylesheet" />
+    <link href="Templates/Theme/select2/select2.min.css" rel="stylesheet" />
+    <link href="Templates/Theme/wizard/wizard.css" rel="stylesheet" />
+   #include("../AceTemplate/Module/_indexModule.html")
+    <script type="text/javascript" src="Templates/Theme/wdtree/tree.js"></script>
+    <script type="text/javascript" src="Templates/Theme/select2/select2.min.js"></script>
+    <script type="text/javascript" src="Templates/Theme/wizard/wizard.js"></script>
+    #set($JQ="$.")
+</head>
+<body>
+    <div class="topPanel">
+        <div class="toolbar">
+            <div class="btn-group">
+                <a class="btn btn-primary" onclick="$ace.reload()"><span class="glyphicon glyphicon-refresh"></span></a>
+            </div>
+             <div class="btn-group">
+                  #foreach($button in $btns)
+	                 <button class="btn btn-primary" data-bind="$button.resourceAcescript"><i class="$button.resourceleftico"></i>$button.resourcename</button>
+                #end
+                <!--#foreach($button in $btns)
+                    #if($btn.resourceAcescript=="click:Add")
+                    <button class="btn btn-primary" data-bind="$button.resourceAcescript"><i class="fa fa-plus"></i>$button.resourcename</button> 
+                     #elseif($btn.resourceAcescript=="click:Delete,attr:{disabled:!DataTable.SelectedModel()}")
+                    <button class="btn btn-primary" data-bind="$button.resourceAcescript"><i class="fa fa-trash-o"></i>$button.resourcename</button>
+                     #else
+	                <button class="btn btn-primary" data-bind="$button.resourceAcescript"><i class="fa fa-pencil-square-o"></i>$button.resourcename</button>
+                    #end
+                #end-->
+             </div>
+        </div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        <div class="input-group">
+                            <input id="txt_keyword" type="text" class="form-control" placeholder="角色名" style="width: 200px;" data-bind="value:SearchModel().keyword">
+                            <span class="input-group-btn">
+                                <button id="btn_search" type="button" class="btn  btn-primary" data-bind="click:Search"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover" data-bind="with:DataTable">
+            <thead>
+                <tr>
+                    <th>名称</th>
+                    <th>编码</th>
+                    <th>有效时间</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach:Models">
+                <tr data-bind="click:$parent.SelectRow">
+                    <td data-bind="text:rolename,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:rolecode,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                    <td data-bind="text:roleexpiretime,tootip:{title:'xzxx',trigger:'hover',placement:'right'}"></td>
+                </tr>
+            </tbody>
+            <!-- 分页-->
+            #include("../AceTemplate/Module/Page.html")
+        </table>
+    </div>
+    <!--//对话框-->
+    #include("../AceTemplate/Module/BeginDialog.html")
+    <div class="modal-body" role="dialog" id="myModal">
+        <form id="form1">
+            <div class="widget-body">
+                <div id="wizard" class="wizard" data-target="#wizard-steps" style="border-left: none; border-top: none; border-right: none;">
+                    <ul class="steps">
+                        <li data-target="#step-1" class="active"><span class="step">1</span>角色信息<span class="chevron"></span></li>
+                        <li data-target="#step-2"><span class="step">2</span>资源权限<span class="chevron"></span></li>
+                        <li data-target="#step-3"><span class="step">3</span>动作权限<span class="chevron"></span></li>
+                    </ul>
+                </div>
+                <div class="step-content" id="wizard-steps" style="border-left: none; border-bottom: none; border-right: none;">
+                    <div class="step-pane active" id="step-1" style="margin: 10px; margin-bottom: 0px;">
+                        <div class="alert alert-danger" style="text-align: left; margin-bottom: 10px;">
+                            <i class="fa fa-warning alert-dismissible" style="position: relative; top: 1px; font-size: 15px; padding-right: 5px;"></i>
+                            请填写角色信息，用于创建或修改角色信息！
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">表单信息</h3>
+                            </div>
+                            <div class="panel-body" style="width: 98%;">
+                                <table class="form">
+                                    <tr>
+                                        <th class="formTitle">角色名称</th>
+                                        <td class="formValue">
+                                            <input id="rolename" name="rolename" type="text" class="form-control required" placeholder="请输入角色名称" data-bind="value:Model().rolename" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="formTitle">角色编码</th>
+                                        <td class="formValue">
+                                            <input id="rolecode" name="rolecode" type="text" class="form-control required" placeholder="请输入角色编号" data-bind="value:Model().rolecode" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="formTitle">角色有效时间</th>
+                                        <td class="formValue">
+                                            <input id="roleexpiretime" name="roleexpiretime" type="text" class="form-control required" placeholder="请输入角色有效时间" data-bind="value:Model().roleexpiretime" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-pane" id="step-2">
+                        <div id="resourcepermissionTree"></div>
+                    </div>
+                    <div class="step-pane" id="step-3">
+                        <div id="actionpermissionTree"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer" id="wizard-actions">
+        <a id="btn_last" disabled class="btn btn-default btn-prev">上一步</a>
+        <a id="btn_next" class="btn btn-default btn-next">下一步</a>
+        <a id="btn_finish" class="btn btn-default" style="display: none;" data-bind="click:Save">完成</a>
+    </div>
+    #include("../AceTemplate/Module/EndDialog.html")
+
+    <!--详情对话框-->
+    #include("../AceTemplate/Module/BeginDialogDetail.html")
+    <form id="DetailForm">
+        <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+            <div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">表单信息</h3>
+                    </div>
+                    <div class="panel-body" style="width: 98%;">
+                        <table class="form">
+                            <tr>
+                                <th class="formTitle">角色名称</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().rolename"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle">角色编号</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().rolecode"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="formTitle">角色有效时间</th>
+                                <td class="formValue">
+                                    <label class="form-control" data-bind="text:Model().roleexpiretime"></label>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    #include("../AceTemplate/Module/EndDialogDetail.html")
+    <script type="text/javascript" src="Templates/AceTemplate/js/role.js"></script>
+</body>
+</html>

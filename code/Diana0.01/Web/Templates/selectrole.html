@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Diana后台登录</title>
+    <link href="Templates/Theme/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Templates/Theme/css/framework-login.css" rel="stylesheet" />
+    <script src="Templates/Theme/jquery/jquery-1.11.1.min.js"></script>
+    <script src="Templates/Theme/jquery/jquery.cookie.js"></script>
+    <script src="Templates/Theme/jquery/jquery.md5.js"></script>
+    <script src="Templates/Theme/Acejs/ace.js"></script>
+    #set($JQ="$.")
+    <style>
+        .tab_bar a {
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            padding-bottom: 10px;
+            width: 145px;
+            text-align: center;
+            border-bottom: 3px solid #FFF;
+            margin-bottom: 15px;
+            color: #333;
+            -webkit-transition: all .3s linear;
+            transition: all .3s linear;
+        }
+
+        a.cur {
+            border-color: #f7691d;
+            font-weight: bold;
+        }
+
+        .select{
+            font-size: 14px;
+            outline: 0;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            background-color: #fff;
+            width: 300px;
+            border-radius: 5px;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            display: block;
+            text-align: left;
+            color: #929191;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo">
+                <h1>请选择一个角色</h1>
+            </div>
+            <form class="form">
+                <div id="ac_login">
+                    <div class="row">
+                        <input id="j_username" name="name" type="text" placeholder="账号" required="true" value="${username}" disabled="disabled">
+                    </div>
+                    <div class="row">
+                        <select id="slt_role" class="select" name="userid" labelposition="left">
+                            #foreach($role in $rolelist)
+                                <option value="$role.id">${role.rolename}</option>
+                            #end
+                        </select>
+                    </div>
+                    <div class="row">
+                        <button class="submit_btn" id="selectroleBtn">确定</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+        <script>
+            $(document).ready(function () {
+
+                $(function () {
+                    var selectroleBtn = $('#selectroleBtn');
+
+                    $('body').keydown(
+                    function (e) {
+                        if (e.keyCode == 13) {
+                            //alert('已按Enter键');
+                            doselectrole();
+                        }
+                    });
+
+                    selectroleBtn.on('click', function () {
+                        //alert('已点击登录');
+                        doselectrole();
+                    });
+                });
+                var doselectrole = function () {
+                    var roleid = $("#slt_role").val();
+
+                    ${JQ}ajax({
+                        url: 'index.ashx?ctrl=selectrole&action=selectrole&roleid=' + roleid,
+                        type: "POST",
+                        success: function (result) {
+                            if (result.success) {
+                                window.location.href = "index.ashx?ctrl=index";
+                            }
+                        },
+                        beforeSend: function () {
+                            $('#selectroleBtn').css("disable","none");   //点击登陆后先禁用登录按钮，防止连击
+                        },
+                        complete: function () {
+                            $('#selectroleBtn').css("disable", "");
+                        }
+                    });
+                }
+            });
+
+            
+            (function ($) {
+                ${JQ}login = {
+                    formMessage: function (msg) {
+                        $('.login_tips').find('.tips_msg').remove();
+                        $('.login_tips').append('<div class="tips_msg"><i class="fa fa-question-circle"></i>' + msg + '</div>');
+                    },
+                    init: function () {
+                        $('.wrapper').height($(window).height());
+                        $(".container").css("margin-top", ($(window).height() - $(".container").height()) / 2 - 50);
+                        $(window).resize(function (e) {
+                            $('.wrapper').height($(window).height());
+                            $(".container").css("margin-top", ($(window).height() - $(".container").height()) / 2 - 50);
+                        });
+                    }
+                };
+                $(function () {
+                    ${JQ}login.init();
+                });
+            })(jQuery);
+    </script>
+</body>
+</html>

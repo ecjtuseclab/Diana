@@ -1,0 +1,36 @@
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Diana.bll.dll
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Diana.bll.pdb
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\basedal.dll
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Diana.Idal.dll
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Diana.model.dll
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Ninject.dll
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\basedal.pdb
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Diana.Idal.pdb
+D:\SourceCode\DotNet\Diana\bll\bin\Debug\Diana.model.pdb
+D:\SourceCode\DotNet\Diana\bll\obj\Debug\bll.csprojResolveAssemblyReference.cache
+D:\SourceCode\DotNet\Diana\bll\obj\Debug\Diana.bll.dll
+D:\SourceCode\DotNet\Diana\bll\obj\Debug\Diana.bll.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Diana.bll.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Diana.bll.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\basedal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Diana.Idal.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Ninject.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\basedal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Diana.Idal.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\bin\Debug\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\obj\Debug\bll.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\obj\Debug\Diana.bll.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\bll\obj\Debug\Diana.bll.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Diana.bll.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Diana.bll.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\basedal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Diana.Idal.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Ninject.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\basedal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Diana.Idal.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\bin\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\obj\Debug\bll.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\obj\Debug\Diana.bll.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\bll\obj\Debug\Diana.bll.pdb

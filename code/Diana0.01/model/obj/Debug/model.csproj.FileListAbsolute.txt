@@ -1,0 +1,14 @@
+D:\SourceCode\DotNet\Diana\model\bin\Debug\Diana.model.dll
+D:\SourceCode\DotNet\Diana\model\bin\Debug\Diana.model.pdb
+D:\SourceCode\DotNet\Diana\model\obj\Debug\Diana.model.dll
+D:\SourceCode\DotNet\Diana\model\obj\Debug\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\model\bin\Debug\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\model\bin\Debug\Diana.model.pdb
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\model\obj\Debug\model.csprojResolveAssemblyReference.cache
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\model\obj\Debug\Diana.model.dll
+D:\454010732\两套框架所有内容\两套框架所有内容\源码\NewDiana\model\obj\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\model\bin\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\model\bin\Debug\Diana.model.pdb
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\model\obj\Debug\model.csprojResolveAssemblyReference.cache
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\model\obj\Debug\Diana.model.dll
+E:\zml\CloudStation\zml2017\My Work\13系统\Diana---Ace+Nfine\DotNet\Diana0.01\model\obj\Debug\Diana.model.pdb

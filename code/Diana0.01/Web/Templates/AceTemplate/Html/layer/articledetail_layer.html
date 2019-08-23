@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+    <link href="Templates/Theme/wdtree/tree.css" rel="stylesheet" />
+    <link href="Templates/Theme/select2/select2.min.css" rel="stylesheet" />
+    <link href="Templates/Theme/wizard/wizard.css" rel="stylesheet" />
+    #include("../AceTemplate/Module/_indexModule.html")
+    <script type="text/javascript" src="Templates/Theme/wdtree/tree.js"></script>
+    <script type="text/javascript" src="Templates/Theme/select2/select2.min.js"></script>
+    <script type="text/javascript" src="Templates/Theme/wizard/wizard.js"></script>
+    <script type="text/javascript" src="Templates/Theme/Acejs/framework-ui.js"></script>
+
+    <script src="Templates/Theme/UEditor/ueditor.config.js"></script>
+    <script src="Templates/Theme/UEditor/ueditor.all.js"></script>
+    <link href="Templates/Theme/UEditor/themes/iframe.css" rel="stylesheet" />
+    <script src="Templates/Theme/UEditor/lang/zh-cn/zh-cn.js"></script>
+    <script src="Templates/Theme/ajaxfileupload/ajaxfileupload.js"></script>
+
+    <script type="text/javascript">
+        UE.delEditor('content');
+        var ue = UE.getEditor('content', { initialFrameHeight: 500, readonly: true });
+    </script>
+    #set($JQ="$.")
+</head>
+<body>
+    <div id="form" style="border: 1px solid #ddd;">
+
+        <form id="form1">
+            <div style="margin-right: 30px;">
+                <table class="form">
+                    <tr>
+                        <th class="formTitle">标题</th>
+                        <td class="formValue">
+                            <label class="form-control" data-bind="text:model().title"></label>
+                        </td>
+                        <th class="formTitle">类型</th>
+                        <td class="formValue">
+                            <select id="type" name="type" class="form-control required" data-bind="value:model().type">
+                                <option value="">==请选择==</option>
+                                #foreach($type in $types)
+                                <option value="$type.propertyValue">$type.propertyMeaning</option>
+                                #end
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">内容</th>
+                        <td class="formValue" colspan="3">
+                            <textarea id="content" name="content" style="width: 100%" data-bind="value:model().content"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <script src="Templates/Theme/iColorPicker.js"></script>
+        <div align="right" style="margin: 5px 30px 5px 0">
+            <a class="btn btn-default" onclick="history.go(-1)">返回</a>
+        </div>
+    </div>
+    <script src="Templates/AceTemplate/js/articleform.js"></script>
+<!--    <script>
+        var cc = document.getElementById("content").value();
+        document.getElementById("content").value() = "";
+        $('#content').append(cc);
+    </script>-->
+
+</body>
+</html>

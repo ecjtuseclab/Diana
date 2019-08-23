@@ -1,0 +1,56 @@
+﻿.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+head {
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+
+.title {
+    float: left;
+}
+
+    .title span {
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+.maincontent img {
+    width:80px;
+    height:80px;
+}
+.maincontent p {
+    color:#777;
+}
+.foot h4 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #51b7ec;
+}
+.text_align {
+    text-align:center;
+}
+    .text_align p {
+        font-size:10px;
+        margin-top:10px;
+        margin-bottom:30px;
+    }
+.info p {
+    text-align: center;
+    margin: 20px 0;
+    color:#777;
+}
+
+.contact img {
+    width: 100px;
+    height: 100px;
+}
